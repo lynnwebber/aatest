@@ -1,0 +1,27 @@
+***************************************************************************
+--------------------
+	MOCK a HUB
+--------------------
+
+This is the initial release of a HUB emulator
+
+release date: 10/08/2013
+
+Accept a configuration ID and a report interval, so that the configuration
+will be downloaded from server, and report to the server in so many interval
+seconds.
+
+Requires:
+a config_id.data file in the current directory. It can have as many line as you like, so long as you do not use an integer for a float data item, verse visa.
+Otherwise, the reported value will be off limit.
+
+Example:
+
+./mockhub.py 4019 300
+
+This will download config 4019 from the server (defined in mcomm_defs.py,
+choose the one you want to use there), and read in the data from 4019.data,
+then send to the server every 300 seconds. You can change the file during the
+interval, so the updated values will be sent.
+
+*****************************************************************************

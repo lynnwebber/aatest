@@ -1,0 +1,32 @@
+<?xml version="1.0"?>
+<document>
+  <blockTable style="SimpleTable">
+    <tr>
+      <td align="left" fontSize="7">Bonanza</td>
+      <td align="left" fontSize="7">
+        <para style="byeline">TV Show</para>
+      </td>
+      <td align="left" fontSize="7">
+        <para style="byeline">fake backgrounds</para>
+      </td>
+    </tr>
+    <tr>
+      <td align="left" fontSize="7">mash</td>
+      <td align="left" fontSize="7">
+        <para style="byeline">TV Show</para>
+      </td>
+      <td align="left" fontSize="7">
+        <para style="byeline">too much activism</para>
+      </td>
+    </tr>
+    <tr>
+      <td align="left" fontSize="7">Everybody Loves Raymond</td>
+      <td align="left" fontSize="7">
+        <para style="byeline">TV Show</para>
+      </td>
+      <td align="left" fontSize="7">
+        <para style="byeline">on every night</para>
+      </td>
+    </tr>
+  </blockTable>
+</document>

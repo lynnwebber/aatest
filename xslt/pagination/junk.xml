@@ -1,0 +1,80 @@
+<?xml version="1.0"?>
+<raw_scores>
+  <scores>
+    <JPI001>
+      <attr_name>Bonanza</attr_name>
+      <definition_stmt>TV Show</definition_stmt>
+      <derailer_stmt>fake backgrounds</derailer_stmt>
+    </JPI001>
+    <JPI002>
+      <attr_name>mash</attr_name>
+      <definition_stmt>TV Show</definition_stmt>
+      <derailer_stmt>too much activism</derailer_stmt>
+    </JPI002>
+    <JPI003>
+      <attr_name>Everybody Loves Raymond</attr_name>
+      <definition_stmt>TV Show</definition_stmt>
+      <derailer_stmt>on every night</derailer_stmt>
+    </JPI003>
+    <JPI004>
+      <attr_name>Sanford and Son</attr_name>
+      <definition_stmt>TV Show</definition_stmt>
+      <derailer_stmt>never went outside house</derailer_stmt>
+    </JPI004>
+    <JPI005>
+      <attr_name>Threes Company</attr_name>
+      <definition_stmt>TV Show</definition_stmt>
+      <derailer_stmt>too forced</derailer_stmt>
+    </JPI005>
+    <JPI006>
+      <attr_name>Cheers</attr_name>
+      <definition_stmt>TV Show</definition_stmt>
+      <derailer_stmt>too much diane</derailer_stmt>
+    </JPI006>
+    <JPI007>
+      <attr_name>Roseanne</attr_name>
+      <definition_stmt>TV Show</definition_stmt>
+      <derailer_stmt>mostly funny</derailer_stmt>
+    </JPI007>
+    <JPI007>
+      <attr_name>Law and Order</attr_name>
+      <definition_stmt>TV Show</definition_stmt>
+      <derailer_stmt>no humor</derailer_stmt>
+    </JPI007>
+    <JPI009>
+      <attr_name>American Idol</attr_name>
+      <definition_stmt>TV Show</definition_stmt>
+      <derailer_stmt>forced and crappy</derailer_stmt>
+    </JPI009>
+    <JPI010>
+      <attr_name>McLintock</attr_name>
+      <definition_stmt>Moveie</definition_stmt>
+      <derailer_stmt>wheres the whisky</derailer_stmt>
+    </JPI010>
+    <JPI011>
+      <attr_name>The Searchers</attr_name>
+      <definition_stmt>Movie</definition_stmt>
+      <derailer_stmt>too driven little humor</derailer_stmt>
+    </JPI011>
+    <JPI012>
+      <attr_name>True Grit</attr_name>
+      <definition_stmt>Movie</definition_stmt>
+      <derailer_stmt>none</derailer_stmt>
+    </JPI012>
+    <JPI013>
+      <attr_name>Paint your Wagon</attr_name>
+      <definition_stmt>movie</definition_stmt>
+      <derailer_stmt>none</derailer_stmt>
+    </JPI013>
+    <JPI014>
+      <attr_name>Gilligans Island</attr_name>
+      <definition_stmt>TV Show</definition_stmt>
+      <derailer_stmt>fun when I was a kid</derailer_stmt>
+    </JPI014>
+    <JPI015>
+      <attr_name>Buggs Bunny</attr_name>
+      <definition_stmt>Cartoon</definition_stmt>
+      <derailer_stmt>never on anymore</derailer_stmt>
+    </JPI015>
+  </scores>
+</raw_scores>

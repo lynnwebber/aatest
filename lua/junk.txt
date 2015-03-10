@@ -1,0 +1,19 @@
+List of things to Test:
+DONE - simple output from string
+DONE - read from file and print
+- write to file
+- read one file write another
+- do something with lists
+- read/parse json
+- try all data aggregat types
+- test control structures
+- write something that pulls in secondary modules
+- pointers to functions?
+- try stuff related to alarms
+
+    - load code from external files
+    - place function into an an array
+    - run data against all functions in the array
+    - can a "loaded" function call internal functions
+    - can you reload a function (from disk) replacing
+        an already "loaded" function

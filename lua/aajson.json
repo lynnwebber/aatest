@@ -1,0 +1,15 @@
+{
+  "RTU_configuration": {
+    "Identification": {
+      "RTUid": "12345",
+      "Operator": "1024",
+      "Active": "true",
+      "Version":"1",
+      "Pub_Sub_targets":{
+        "Readings":{"protocol":"mqtt","url":"ib-m.wellkeeper.net","port":"1883"},
+        "Commands":{"protocol":"mqtt","url":"ob-m.wellkeeper.net","port":"1883"},
+        "Configuration":{"protocol":"mqtt","url":"io-c.wellkeeper.net","port":"1883"}
+      }
+    }
+  }
+}

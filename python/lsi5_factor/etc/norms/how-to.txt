@@ -1,0 +1,6 @@
+How To Implement New Norms:
+
+1) get new norms spreadsheet
+2) extract the norms (using extract_norms.py)
+3) place the 3 created text files into the data-files directory
+   (replacing the existing files)

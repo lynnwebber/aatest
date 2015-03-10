@@ -1,0 +1,27 @@
+(dp1
+S'intuition'
+p2
+(dp3
+S'match'
+p4
+S'this is a statement for intuition'
+p5
+ssS'achevement'
+p6
+(dp7
+g4
+S'this is a statement for achevement'
+p8
+ssS'play'
+p9
+(dp10
+g4
+S'this is a statement for Play'
+p11
+ssS'ambition'
+p12
+(dp13
+g4
+S'this is a statement for ambition'
+p14
+ss.

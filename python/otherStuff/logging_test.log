@@ -1,0 +1,4 @@
+2012-08-02 22:08:10,459 - __main__ - INFO -informational message
+2012-08-02 22:08:10,460 - __main__ - ERROR -error message
+2012-08-02 22:46:03,967 - logtest.py - INFO -informational message
+2012-08-02 22:46:03,967 - logtest.py - ERROR -error message

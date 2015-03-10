@@ -1,0 +1,416 @@
+<?xml version="1.0"?>
+<lsi_scores rev="0.1">
+  <identification>
+    <client>Monarch Consulting</client>
+    <participant>Simonton, Taylor</participant>
+  </identification>
+  <processing>
+    <survey>lsi-expanded</survey>
+    <email>nbaumgartner@monarchtransformations.com</email>
+    <billable>true</billable>
+  </processing>
+  <scores>
+    <attributes>
+      <affiliation adjscore="0" interp_rating="opp:verystrong" opp="independence" percentile="8.08" posnegdiff="-1.33333333333" score="36.02499769"/>
+      <ambiguity adjscore="0" interp_rating="dim:moderate" opp="cognitive-structure" percentile="68.79" posnegdiff="0.0" score="53.884107394"/>
+      <balance adjscore="0" interp_rating="opp:moderate" opp="ambition" percentile="30.85" posnegdiff="-4.0" score="45.0930894851"/>
+      <behind-the-scenes adjscore="0" interp_rating="dim:verystrong" opp="exhibition" percentile="97.67" posnegdiff="3.0" score="69.3847423595"/>
+      <big-picture adjscore="0" interp_rating="dim:slight" opp="detail-minded" percentile="61.41" posnegdiff="-2.0" score="51.5442989214"/>
+      <change adjscore="0" interp_rating="dim:strong" opp="stability" percentile="78.52" posnegdiff="0.333333333333" score="57.1324059218"/>
+      <collaboration adjscore="0" interp_rating="dim:moderate" opp="competition" percentile="72.24" posnegdiff="0.666666666667" score="55.3145549357"/>
+      <compliance adjscore="0" interp_rating="dim:slight" opp="persuasion" percentile="65.17" posnegdiff="-3.33333333333" score="52.8408665056"/>
+      <emotional-control adjscore="0" interp_rating="opp:moderate" opp="emotional-vibrancy" percentile="24.2" posnegdiff="-3.0" score="43.2814608708"/>
+      <endurance adjscore="0" interp_rating="dim:moderate" opp="efficiency" percentile="65.17" posnegdiff="0.666666666667" score="53.1539090641"/>
+      <exploration adjscore="0" interp_rating="dim:slight" opp="achievement" percentile="50.0" posnegdiff="-2.33333333333" score="50.1612052407"/>
+      <free-wheeling adjscore="0" interp_rating="opp:moderate" opp="order" percentile="27.43" posnegdiff="-3.66666666667" score="43.6841263561"/>
+      <humility adjscore="0" interp_rating="opp:moderate" opp="thick-skinned" percentile="27.43" posnegdiff="-0.666666666667" score="44.0962834087"/>
+      <impulsivity adjscore="0" interp_rating="dim:slight" opp="carefulness" percentile="50.0" posnegdiff="-1.66666666667" score="50.2501488892"/>
+      <interdependency adjscore="0" interp_rating="opp:strong" opp="autonomy" percentile="21.19" posnegdiff="-2.33333333333" score="41.584412136"/>
+      <introspection adjscore="0" interp_rating="opp:verystrong" opp="externality" percentile="8.08" posnegdiff="-2.66666666667" score="36.3342356065"/>
+      <nurturance adjscore="0" interp_rating="opp:slight" opp="demandingness" percentile="42.07" posnegdiff="1.0" score="47.7263994473"/>
+      <openness adjscore="0" interp_rating="dim:slight" opp="defendence" percentile="61.41" posnegdiff="1.66666666667" score="51.7898159218"/>
+      <play adjscore="0" interp_rating="opp:moderate" opp="all-work" percentile="30.85" posnegdiff="-1.66666666667" score="44.7850902432"/>
+      <psychological-minded adjscore="0" interp_rating="opp:strong" opp="indiscriminant" percentile="13.57" posnegdiff="-0.333333333333" score="38.7567180339"/>
+      <qualitative adjscore="0" interp_rating="opp:slight" opp="analytical" percentile="46.02" posnegdiff="-2.33333333333" score="48.8238656945"/>
+      <risk-taking adjscore="0" interp_rating="dim:verystrong" opp="caution" percentile="95.45" posnegdiff="1.66666666667" score="66.1329853231"/>
+      <succorance adjscore="0" interp_rating="opp:moderate" opp="distance" percentile="27.43" posnegdiff="-2.33333333333" score="43.9593214669"/>
+      <support adjscore="0" interp_rating="dim:strong" opp="influence" percentile="81.33" posnegdiff="-0.333333333333" score="58.2424321695"/>
+      <thoughtfulness adjscore="0" interp_rating="dim:slight" opp="aggression" percentile="50.0" posnegdiff="-0.333333333333" score="50.2236041165"/>
+      <understanding adjscore="0" interp_rating="dim:slight" opp="application" percentile="50.0" posnegdiff="0.0" score="50.224012517"/>
+      <abstract adjscore="0" interp_rating="dim:moderate" opp="concrete" percentile="72.24" posnegdiff="2.0" score="54.6925593398"/>
+      <accepting adjscore="0" interp_rating="dim:slight" opp="critical-minded" percentile="57.53" posnegdiff="2.0" score="51.2984021816"/>
+      <accommodating adjscore="0" interp_rating="opp:slight" opp="questioning" percentile="42.07" posnegdiff="-1.0" score="47.7346362352"/>
+      <casual adjscore="0" interp_rating="opp:moderate" opp="systematic" percentile="24.2" posnegdiff="-0.666666666667" score="43.1154657845"/>
+      <compassionate adjscore="0" interp_rating="opp:slight" opp="reasonable" percentile="46.02" posnegdiff="-1.66666666667" score="48.8361258511"/>
+      <conceptual adjscore="0" interp_rating="opp:slight" opp="practical-minded" percentile="42.07" posnegdiff="0.666666666667" score="47.6912811222"/>
+      <emergent adjscore="0" interp_rating="dim:moderate" opp="methodical" percentile="78.52" posnegdiff="3.0" score="56.9934723246"/>
+      <empathetic adjscore="0" interp_rating="dim:moderate" opp="logical" percentile="68.79" posnegdiff="-0.666666666667" score="53.9202886748"/>
+      <enthusiastic adjscore="0" interp_rating="opp:moderate" opp="quiet" percentile="24.2" posnegdiff="0.333333333333" score="43.4878098242"/>
+      <expressive adjscore="0" interp_rating="opp:moderate" opp="contained" percentile="30.85" posnegdiff="0.333333333333" score="45.3968098414"/>
+      <gregarious adjscore="0" interp_rating="dim:slight" opp="intimate" percentile="65.17" posnegdiff="2.33333333333" score="52.8162094009"/>
+      <imaginative adjscore="0" interp_rating="opp:verystrong" opp="realistic" percentile="9.68" posnegdiff="-1.33333333333" score="36.9997475219"/>
+      <initiating adjscore="0" interp_rating="dim:slight" opp="receiving" percentile="61.41" posnegdiff="3.33333333333" score="51.5095085574"/>
+      <open-ended adjscore="0" interp_rating="dim:slight" opp="planful" percentile="61.41" posnegdiff="0.0" score="51.8668657816"/>
+      <original adjscore="0" interp_rating="dim:slight" opp="traditional-minded" percentile="61.41" posnegdiff="0.666666666667" score="51.5457260165"/>
+      <participative adjscore="0" interp_rating="opp:slight" opp="reflective" percentile="46.02" posnegdiff="2.0" score="49.1823041427"/>
+      <pressure-prompted adjscore="0" interp_rating="dim:verystrong" opp="early-starting" percentile="95.45" posnegdiff="1.33333333333" score="65.5123911095"/>
+      <spontaneous adjscore="0" interp_rating="opp:slight" opp="scheduled" percentile="38.21" posnegdiff="0.0" score="47.4310808171"/>
+      <tender-hearted adjscore="0" interp_rating="opp:verystrong" opp="tough-minded" percentile="2.28" posnegdiff="-2.33333333333" score="29.8405524384"/>
+      <theoretical adjscore="0" interp_rating="opp:moderate" opp="experiential" percentile="34.46" posnegdiff="0.333333333333" score="45.7854624633"/>
+    </attributes>
+    <validity_indices>
+      <high-score-index label="Valid" percentile="34.46" score="45.7169751686"/>
+      <response-variance-index label="Valid" percentile="81.33" score="58.1537796357"/>
+      <low-score-index label="Valid" percentile="13.57" score="39.1099366211"/>
+      <central-tendency-index label="Valid" percentile="34.46" score="45.984336903"/>
+    </validity_indices>
+  </scores>
+  <debugging>
+    <attributes>
+      <affiliation>
+        <positems>[('ies018', '7'), ('ies061', '5'), ('ies120', '6')]</positems>
+        <negitems>[('ies017', '8'), ('ies054', '8'), ('ies071', '6')]</negitems>
+        <oppname>independence</oppname>
+        <calc_info>[('avg', -1.333333333333333), ('amean', 2.1196375892999999), ('astddev', 2.4708195719999999), ('stdscore', 36.024997689983763)]</calc_info>
+        <adjscore/>
+      </affiliation>
+      <ambiguity>
+        <positems>[('ies013', '7'), ('ies100', '8'), ('ies105', '7')]</positems>
+        <negitems>[('ies028', '8'), ('ies038', '6'), ('ies067', '8')]</negitems>
+        <oppname>cognitive-structure</oppname>
+        <calc_info>[('avg', 0.0), ('amean', -0.9252892009), ('astddev', 2.3822441220999999), ('stdscore', 53.884107394016098)]</calc_info>
+        <adjscore/>
+      </ambiguity>
+      <balance>
+        <positems>[('ies122', '2'), ('ies135', '3'), ('ies150', '9')]</positems>
+        <negitems>[('ies128', '8'), ('ies131', '9'), ('ies143', '9')]</negitems>
+        <oppname>ambition</oppname>
+        <calc_info>[('avg', -3.9999999999999991), ('amean', -2.7062361799999999), ('astddev', 2.6366158830000002), ('stdscore', 45.09308948511709)]</calc_info>
+        <adjscore/>
+      </balance>
+      <behind-the-scenes>
+        <positems>[('ies037', '8'), ('ies058', '6'), ('ies078', '7')]</positems>
+        <negitems>[('ies057', '3'), ('ies085', '3'), ('ies093', '6')]</negitems>
+        <oppname>exhibition</oppname>
+        <calc_info>[('avg', 3.0), ('amean', -1.21987282), ('astddev', 2.1769042589000001), ('stdscore', 69.384742359465648)]</calc_info>
+        <adjscore/>
+      </behind-the-scenes>
+      <big-picture>
+        <positems>[('ies123', '9'), ('ies140', '3'), ('ies153', '4')]</positems>
+        <negitems>[('ies133', '6'), ('ies136', '7'), ('ies147', '9')]</negitems>
+        <oppname>detail-minded</oppname>
+        <calc_info>[('avg', -2.0), ('amean', -2.382708982), ('astddev', 2.4782053311999999), ('stdscore', 51.544298921408114)]</calc_info>
+        <adjscore/>
+      </big-picture>
+      <change>
+        <positems>[('ies025', '7'), ('ies074', '6'), ('ies119', '7')]</positems>
+        <negitems>[('ies035', '3'), ('ies088', '8'), ('ies099', '8')]</negitems>
+        <oppname>stability</oppname>
+        <calc_info>[('avg', 0.33333333333333393), ('amean', -1.289364927), ('astddev', 2.2751064341), ('stdscore', 57.132405921814602)]</calc_info>
+        <adjscore/>
+      </change>
+      <collaboration>
+        <positems>[('ies064', '8'), ('ies066', '8'), ('ies079', '5')]</positems>
+        <negitems>[('ies012', '7'), ('ies059', '8'), ('ies118', '4')]</negitems>
+        <oppname>competition</oppname>
+        <calc_info>[('avg', 0.66666666666666696), ('amean', -0.67932860839999998), ('astddev', 2.5326585036), ('stdscore', 55.314554935667118)]</calc_info>
+        <adjscore/>
+      </collaboration>
+      <compliance>
+        <positems>[('ies130', '3'), ('ies134', '9'), ('ies142', '3')]</positems>
+        <negitems>[('ies127', '9'), ('ies138', '8'), ('ies149', '8')]</negitems>
+        <oppname>persuasion</oppname>
+        <calc_info>[('avg', -3.3333333333333339), ('amean', -4.04233099), ('astddev', 2.4957091621999998), ('stdscore', 52.840866505621491)]</calc_info>
+        <adjscore/>
+      </compliance>
+      <emotional-control>
+        <positems>[('ies148', '8'), ('ies151', '5'), ('ies155', '4')]</positems>
+        <negitems>[('ies126', '9'), ('ies144', '8'), ('ies146', '9')]</negitems>
+        <oppname>emotional-vibrancy</oppname>
+        <calc_info>[('avg', -2.9999999999999991), ('amean', -1.4064423509999999), ('astddev', 2.3718811759), ('stdscore', 43.281460870840924)]</calc_info>
+        <adjscore/>
+      </emotional-control>
+      <endurance>
+        <positems>[('ies016', '10'), ('ies036', '9'), ('ies052', '9')]</positems>
+        <negitems>[('ies008', '9'), ('ies011', '9'), ('ies050', '8')]</negitems>
+        <oppname>efficiency</oppname>
+        <calc_info>[('avg', 0.66666666666666785), ('amean', 0.1239272256), ('astddev', 1.7208468286), ('stdscore', 53.15390906411011)]</calc_info>
+        <adjscore/>
+      </endurance>
+      <exploration>
+        <positems>[('ies003', '9'), ('ies103', '5'), ('ies110', '3')]</positems>
+        <negitems>[('ies027', '9'), ('ies077', '8'), ('ies097', '7')]</negitems>
+        <oppname>achievement</oppname>
+        <calc_info>[('avg', -2.333333333333333), ('amean', -2.3688375879999999), ('astddev', 2.2024255857999999), ('stdscore', 50.161205240692709)]</calc_info>
+        <adjscore/>
+      </exploration>
+      <free-wheeling>
+        <positems>[('ies019', '3'), ('ies048', '7'), ('ies107', '4')]</positems>
+        <negitems>[('ies069', '10'), ('ies082', '8'), ('ies108', '7')]</negitems>
+        <oppname>order</oppname>
+        <calc_info>[('avg', -3.666666666666667), ('amean', -2.0627291460000001), ('astddev', 2.5395338968000001), ('stdscore', 43.684126356069726)]</calc_info>
+        <adjscore/>
+      </free-wheeling>
+      <humility>
+        <positems>[('ies015', '3'), ('ies049', '3'), ('ies114', '6')]</positems>
+        <negitems>[('ies024', '4'), ('ies045', '7'), ('ies117', '3')]</negitems>
+        <oppname>thick-skinned</oppname>
+        <calc_info>[('avg', -0.66666666666666696), ('amean', 0.61346051310000005), ('astddev', 2.1683411796000001), ('stdscore', 44.096283408670885)]</calc_info>
+        <adjscore/>
+      </humility>
+      <impulsivity>
+        <positems>[('ies029', '9'), ('ies076', '3'), ('ies101', '9')]</positems>
+        <negitems>[('ies026', '8'), ('ies090', '9'), ('ies092', '9')]</negitems>
+        <oppname>carefulness</oppname>
+        <calc_info>[('avg', -1.6666666666666661), ('amean', -1.718643124), ('astddev', 2.0778208334000001), ('stdscore', 50.250148889152698)]</calc_info>
+        <adjscore/>
+      </impulsivity>
+      <interdependency>
+        <positems>[('ies010', '4'), ('ies034', '7'), ('ies070', '6')]</positems>
+        <negitems>[('ies031', '8'), ('ies068', '8'), ('ies087', '8')]</negitems>
+        <oppname>autonomy</oppname>
+        <calc_info>[('avg', -2.333333333333333), ('amean', -0.39774973619999998), ('astddev', 2.2999980849999999), ('stdscore', 41.584412136006918)]</calc_info>
+        <adjscore/>
+      </interdependency>
+      <introspection>
+        <positems>[('ies005', '6'), ('ies030', '8'), ('ies046', '3')]</positems>
+        <negitems>[('ies007', '9'), ('ies051', '8'), ('ies112', '8')]</negitems>
+        <oppname>externality</oppname>
+        <calc_info>[('avg', -2.666666666666667), ('amean', 0.57067854100000004), ('astddev', 2.3689455741000001), ('stdscore', 36.334235606503597)]</calc_info>
+        <adjscore/>
+      </introspection>
+      <nurturance>
+        <positems>[('ies001', '9'), ('ies002', '8'), ('ies032', '7')]</positems>
+        <negitems>[('ies021', '8'), ('ies091', '4'), ('ies094', '9')]</negitems>
+        <oppname>demandingness</oppname>
+        <calc_info>[('avg', 1.0), ('amean', 1.4997279577), ('astddev', 2.1979584633), ('stdscore', 47.726399447286589)]</calc_info>
+        <adjscore/>
+      </nurturance>
+      <openness>
+        <positems>[('ies073', '8'), ('ies083', '8'), ('ies106', '7')]</positems>
+        <negitems>[('ies040', '7'), ('ies041', '4'), ('ies047', '7')]</negitems>
+        <oppname>defendence</oppname>
+        <calc_info>[('avg', 1.666666666666667), ('amean', 1.2961990168999999), ('astddev', 2.0698645333000001), ('stdscore', 51.789815921798649)]</calc_info>
+        <adjscore/>
+      </openness>
+      <play>
+        <positems>[('ies020', '7'), ('ies098', '6'), ('ies109', '4')]</positems>
+        <negitems>[('ies004', '9'), ('ies104', '7'), ('ies111', '6')]</negitems>
+        <oppname>all-work</oppname>
+        <calc_info>[('avg', -1.6666666666666661), ('amean', -0.1849837788), ('astddev', 2.8412435823000002), ('stdscore', 44.785090243240475)]</calc_info>
+        <adjscore/>
+      </play>
+      <psychological-minded>
+        <positems>[('ies124', '4'), ('ies132', '8'), ('ies139', '4')]</positems>
+        <negitems>[('ies141', '4'), ('ies145', '6'), ('ies154', '7')]</negitems>
+        <oppname>indiscriminant</oppname>
+        <calc_info>[('avg', -0.33333333333333393), ('amean', 2.1767765423999998), ('astddev', 2.2325419599999998), ('stdscore', 38.756718033943095)]</calc_info>
+        <adjscore/>
+      </psychological-minded>
+      <qualitative>
+        <positems>[('ies121', '3'), ('ies152', '6'), ('ies156', '5')]</positems>
+        <negitems>[('ies125', '7'), ('ies129', '8'), ('ies137', '6')]</negitems>
+        <oppname>analytical</oppname>
+        <calc_info>[('avg', -2.333333333333333), ('amean', -1.9604901100000001), ('astddev', 3.1700735333000001), ('stdscore', 48.823865694543656)]</calc_info>
+        <adjscore/>
+      </qualitative>
+      <risk-taking>
+        <positems>[('ies023', '8'), ('ies044', '8'), ('ies089', '8')]</positems>
+        <negitems>[('ies006', '8'), ('ies081', '8'), ('ies115', '3')]</negitems>
+        <oppname>caution</oppname>
+        <calc_info>[('avg', 1.666666666666667), ('amean', -1.5561803009999999), ('astddev', 1.9976755096000001), ('stdscore', 66.132985323086757)]</calc_info>
+        <adjscore/>
+      </risk-taking>
+      <succorance>
+        <positems>[('ies033', '2'), ('ies043', '3'), ('ies086', '6')]</positems>
+        <negitems>[('ies053', '4'), ('ies063', '6'), ('ies065', '8')]</negitems>
+        <oppname>distance</oppname>
+        <calc_info>[('avg', -2.3333333333333335), ('amean', -0.79948846880000002), ('astddev', 2.5391929998), ('stdscore', 43.959321466882798)]</calc_info>
+        <adjscore/>
+      </succorance>
+      <support>
+        <positems>[('ies014', '7'), ('ies039', '8'), ('ies084', '6')]</positems>
+        <negitems>[('ies060', '8'), ('ies062', '8'), ('ies096', '6')]</negitems>
+        <oppname>influence</oppname>
+        <calc_info>[('avg', -0.33333333333333304), ('amean', -1.9693866609999999), ('astddev', 1.9849157312000001), ('stdscore', 58.24243216953888)]</calc_info>
+        <adjscore/>
+      </support>
+      <thoughtfulness>
+        <positems>[('ies080', '9'), ('ies095', '4'), ('ies113', '4')]</positems>
+        <negitems>[('ies056', '8'), ('ies075', '3'), ('ies116', '7')]</negitems>
+        <oppname>aggression</oppname>
+        <calc_info>[('avg', -0.33333333333333304), ('amean', -0.38196051619999999), ('astddev', 2.1746998057), ('stdscore', 50.223604116481788)]</calc_info>
+        <adjscore/>
+      </thoughtfulness>
+      <understanding>
+        <positems>[('ies042', '7'), ('ies072', '7'), ('ies102', '9')]</positems>
+        <negitems>[('ies009', '8'), ('ies022', '8'), ('ies055', '7')]</negitems>
+        <oppname>application</oppname>
+        <calc_info>[('avg', 0.0), ('amean', -0.052148043259999999), ('astddev', 2.3279075636000002), ('stdscore', 50.224012516971918)]</calc_info>
+        <adjscore/>
+      </understanding>
+      <abstract>
+        <positems>[('ipt056', '8'), ('ipt042', '9'), ('ipt009', '9')]</positems>
+        <negitems>[('ipt053', '8'), ('ipt078', '4'), ('ipt061', '8')]</negitems>
+        <oppname>concrete</oppname>
+        <calc_info>[('avg', 1.9999999999999991), ('amean', 0.92848432059999997), ('astddev', 2.2834355451000001), ('stdscore', 54.692559339804241)]</calc_info>
+        <adjscore/>
+      </abstract>
+      <accepting>
+        <positems>[('ipt043', '6'), ('ipt068', '8'), ('ipt098', '8')]</positems>
+        <negitems>[('ipt063', '3'), ('ipt075', '5'), ('ipt117', '8')]</negitems>
+        <oppname>critical-minded</oppname>
+        <calc_info>[('avg', 2.0), ('amean', 1.7382653654), ('astddev', 2.0158209707000001), ('stdscore', 51.298402181564327)]</calc_info>
+        <adjscore/>
+      </accepting>
+      <accommodating>
+        <positems>[('ipt096', '8'), ('ipt005', '8'), ('ipt025', '3')]</positems>
+        <negitems>[('ipt019', '8'), ('ipt103', '7'), ('ipt113', '7')]</negitems>
+        <oppname>questioning</oppname>
+        <calc_info>[('avg', -1.0), ('amean', -0.52385097489999999), ('astddev', 2.1018656362999999), ('stdscore', 47.734636235177312)]</calc_info>
+        <adjscore/>
+      </accommodating>
+      <casual>
+        <positems>[('ipt108', '8'), ('ipt076', '8'), ('ipt036', '5')]</positems>
+        <negitems>[('ipt011', '7'), ('ipt023', '8'), ('ipt050', '8')]</negitems>
+        <oppname>systematic</oppname>
+        <calc_info>[('avg', -0.66666666666666696), ('amean', 0.94761904760000004), ('astddev', 2.3448001909), ('stdscore', 43.115465784540646)]</calc_info>
+        <adjscore/>
+      </casual>
+      <compassionate>
+        <positems>[('ipt070', '7'), ('ipt093', '8'), ('ipt094', '4')]</positems>
+        <negitems>[('ipt087', '8'), ('ipt112', '8'), ('ipt118', '8')]</negitems>
+        <oppname>reasonable</oppname>
+        <calc_info>[('avg', -1.666666666666667), ('amean', -1.4441538819999999), ('astddev', 1.9118285674), ('stdscore', 48.83612585113071)]</calc_info>
+        <adjscore/>
+      </compassionate>
+      <conceptual>
+        <positems>[('ipt110', '8'), ('ipt065', '8'), ('ipt031', '8')]</positems>
+        <negitems>[('ipt008', '8'), ('ipt020', '6'), ('ipt038', '8')]</negitems>
+        <oppname>practical-minded</oppname>
+        <calc_info>[('avg', 0.66666666666666696), ('amean', 1.1439763231), ('astddev', 2.0674221578999998), ('stdscore', 47.69128112219633)]</calc_info>
+        <adjscore/>
+      </conceptual>
+      <emergent>
+        <positems>[('ipt077', '8'), ('ipt120', '9'), ('ipt054', '8')]</positems>
+        <negitems>[('ipt003', '3'), ('ipt015', '5'), ('ipt016', '8')]</negitems>
+        <oppname>methodical</oppname>
+        <calc_info>[('avg', 3.0000000000000009), ('amean', 1.2938734030000001), ('astddev', 2.4395986969000001), ('stdscore', 56.993472324640841)]</calc_info>
+        <adjscore/>
+      </emergent>
+      <empathetic>
+        <positems>[('ipt049', '6'), ('ipt052', '6'), ('ipt073', '9')]</positems>
+        <negitems>[('ipt060', '8'), ('ipt067', '8'), ('ipt114', '7')]</negitems>
+        <oppname>logical</oppname>
+        <calc_info>[('avg', -0.66666666666666696), ('amean', -1.4443379789999999), ('astddev', 1.9837093052000001), ('stdscore', 53.920288674831454)]</calc_info>
+        <adjscore/>
+      </empathetic>
+      <enthusiastic>
+        <positems>[('ipt100', '8'), ('ipt041', '6'), ('ipt007', '6')]</positems>
+        <negitems>[('ipt022', '8'), ('ipt027', '8'), ('ipt062', '3')]</negitems>
+        <oppname>quiet</oppname>
+        <calc_info>[('avg', 0.33333333333333393), ('amean', 2.0625870474000001), ('astddev', 2.6554103418000001), ('stdscore', 43.487809824170256)]</calc_info>
+        <adjscore/>
+      </enthusiastic>
+      <expressive>
+        <positems>[('ipt064', '7'), ('ipt099', '6'), ('ipt119', '8')]</positems>
+        <negitems>[('ipt091', '8'), ('ipt101', '4'), ('ipt107', '8')]</negitems>
+        <oppname>contained</oppname>
+        <calc_info>[('avg', 0.33333333333333304), ('amean', 1.5874012087), ('astddev', 2.7243451435999999), ('stdscore', 45.396809841393598)]</calc_info>
+        <adjscore/>
+      </expressive>
+      <gregarious>
+        <positems>[('ipt037', '8'), ('ipt074', '8'), ('ipt039', '6')]</positems>
+        <negitems>[('ipt021', '5'), ('ipt048', '3'), ('ipt057', '7')]</negitems>
+        <oppname>intimate</oppname>
+        <calc_info>[('avg', 2.333333333333333), ('amean', 1.5441056911), ('astddev', 2.8024465864999999), ('stdscore', 52.816209400868573)]</calc_info>
+        <adjscore/>
+      </gregarious>
+      <imaginative>
+        <positems>[('ipt029', '7'), ('ipt097', '9'), ('ipt055', '4')]</positems>
+        <negitems>[('ipt047', '9'), ('ipt084', '7'), ('ipt111', '8')]</negitems>
+        <oppname>realistic</oppname>
+        <calc_info>[('avg', -1.333333333333333), ('amean', 0.96975502150000004), ('astddev', 1.7715720204000001), ('stdscore', 36.999747521902478)]</calc_info>
+        <adjscore/>
+      </imaginative>
+      <initiating>
+        <positems>[('ipt069', '6'), ('ipt018', '8'), ('ipt115', '7')]</positems>
+        <negitems>[('ipt035', '3'), ('ipt059', '4'), ('ipt079', '4')]</negitems>
+        <oppname>receiving</oppname>
+        <calc_info>[('avg', 3.3333333333333335), ('amean', 2.8948606271999999), ('astddev', 2.904738128), ('stdscore', 51.509508557438309)]</calc_info>
+        <adjscore/>
+      </initiating>
+      <open-ended>
+        <positems>[('ipt001', '8'), ('ipt095', '9'), ('ipt104', '5')]</positems>
+        <negitems>[('ipt014', '9'), ('ipt105', '7'), ('ipt116', '6')]</negitems>
+        <oppname>planful</oppname>
+        <calc_info>[('avg', 0.0), ('amean', -0.4547088842), ('astddev', 2.4356806402000002), ('stdscore', 51.86686578156101)]</calc_info>
+        <adjscore/>
+      </open-ended>
+      <original>
+        <positems>[('ipt034', '8'), ('ipt106', '6'), ('ipt085', '7')]</positems>
+        <negitems>[('ipt026', '6'), ('ipt032', '8'), ('ipt089', '5')]</negitems>
+        <oppname>traditional-minded</oppname>
+        <calc_info>[('avg', 0.66666666666666696), ('amean', 0.31582462249999999), ('astddev', 2.2697557033), ('stdscore', 51.545726016489695)]</calc_info>
+        <adjscore/>
+      </original>
+      <participative>
+        <positems>[('ipt033', '8'), ('ipt058', '9'), ('ipt072', '8')]</positems>
+        <negitems>[('ipt071', '6'), ('ipt080', '4'), ('ipt090', '9')]</negitems>
+        <oppname>reflective</oppname>
+        <calc_info>[('avg', 2.0000000000000009), ('amean', 2.1743375174000001), ('astddev', 2.1320582200999998), ('stdscore', 49.182304142746055)]</calc_info>
+        <adjscore/>
+      </participative>
+      <pressure-prompted>
+        <positems>[('ipt013', '9'), ('ipt024', '7'), ('ipt082', '9')]</positems>
+        <negitems>[('ipt002', '9'), ('ipt066', '8'), ('ipt088', '4')]</negitems>
+        <oppname>early-starting</oppname>
+        <calc_info>[('avg', 1.3333333333333339), ('amean', -2.2537681159999998), ('astddev', 2.3124103975999999), ('stdscore', 65.512391109537944)]</calc_info>
+        <adjscore/>
+      </pressure-prompted>
+      <spontaneous>
+        <positems>[('ipt083', '7'), ('ipt051', '4'), ('ipt045', '9')]</positems>
+        <negitems>[('ipt030', '5'), ('ipt017', '8'), ('ipt004', '7')]</negitems>
+        <oppname>scheduled</oppname>
+        <calc_info>[('avg', 0.0), ('amean', 0.65090560779999995), ('astddev', 2.5337722266), ('stdscore', 47.431080817104728)]</calc_info>
+        <adjscore/>
+      </spontaneous>
+      <tender-hearted>
+        <positems>[('ipt086', '9'), ('ipt006', '4'), ('ipt028', '4')]</positems>
+        <negitems>[('ipt044', '9'), ('ipt040', '8'), ('ipt010', '7')]</negitems>
+        <oppname>tough-minded</oppname>
+        <calc_info>[('avg', -2.333333333333333), ('amean', 1.6089074460999999), ('astddev', 1.9555301639), ('stdscore', 29.840552438367158)]</calc_info>
+        <adjscore/>
+      </tender-hearted>
+      <theoretical>
+        <positems>[('ipt012', '8'), ('ipt092', '8'), ('ipt081', '8')]</positems>
+        <negitems>[('ipt046', '8'), ('ipt102', '7'), ('ipt109', '8')]</negitems>
+        <oppname>experiential</oppname>
+        <calc_info>[('avg', 0.33333333333333304), ('amean', 1.1394788764999999), ('astddev', 1.9127734327999999), ('stdscore', 45.785462463337353)]</calc_info>
+        <adjscore/>
+      </theoretical>
+    </attributes>
+    <validity_indices>
+      <high-score-index>
+        <calc_type>standardized_item_count_high</calc_type>
+        <items>[('ies001', '9'), ('ies002', '8'), ('ies003', '9'), ('ies004', '9'), ('ies005', '6'), ('ies006', '8'), ('ies007', '9'), ('ies008', '9'), ('ies009', '8'), ('ies010', '4'), ('ies011', '9'), ('ies012', '7'), ('ies013', '7'), ('ies014', '7'), ('ies015', '3'), ('ies016', '10'), ('ies017', '8'), ('ies018', '7'), ('ies019', '3'), ('ies020', '7'), ('ies021', '8'), ('ies022', '8'), ('ies023', '8'), ('ies024', '4'), ('ies025', '7'), ('ies026', '8'), ('ies027', '9'), ('ies028', '8'), ('ies029', '9'), ('ies030', '8'), ('ies031', '8'), ('ies032', '7'), ('ies033', '2'), ('ies034', '7'), ('ies035', '3'), ('ies036', '9'), ('ies037', '8'), ('ies038', '6'), ('ies039', '8'), ('ies040', '7'), ('ies041', '4'), ('ies042', '7'), ('ies043', '3'), ('ies044', '8'), ('ies045', '7'), ('ies046', '3'), ('ies047', '7'), ('ies048', '7'), ('ies049', '3'), ('ies050', '8'), ('ies051', '8'), ('ies052', '9'), ('ies053', '4'), ('ies054', '8'), ('ies055', '7'), ('ies056', '8'), ('ies057', '3'), ('ies058', '6'), ('ies059', '8'), ('ies060', '8'), ('ies061', '5'), ('ies062', '8'), ('ies063', '6'), ('ies064', '8'), ('ies065', '8'), ('ies066', '8'), ('ies067', '8'), ('ies068', '8'), ('ies069', '10'), ('ies070', '6'), ('ies071', '6'), ('ies072', '7'), ('ies073', '8'), ('ies074', '6'), ('ies075', '3'), ('ies076', '3'), ('ies077', '8'), ('ies078', '7'), ('ies079', '5'), ('ies080', '9'), ('ies081', '8'), ('ies082', '8'), ('ies083', '8'), ('ies084', '6'), ('ies085', '3'), ('ies086', '6'), ('ies087', '8'), ('ies088', '8'), ('ies089', '8'), ('ies090', '9'), ('ies091', '4'), ('ies092', '9'), ('ies093', '6'), ('ies094', '9'), ('ies095', '4'), ('ies096', '6'), ('ies097', '7'), ('ies098', '6'), ('ies099', '8'), ('ies100', '8'), ('ies101', '9'), ('ies102', '9'), ('ies103', '5'), ('ies104', '7'), ('ies105', '7'), ('ies106', '7'), ('ies107', '4'), ('ies108', '7'), ('ies109', '4'), ('ies110', '3'), ('ies111', '6'), ('ies112', '8'), ('ies113', '4'), ('ies114', '6'), ('ies115', '3'), ('ies116', '7'), ('ies117', '3'), ('ies118', '4'), ('ies119', '7'), ('ies120', '6'), ('ies121', '3'), ('ies122', '2'), ('ies123', '9'), ('ies124', '4'), ('ies125', '7'), ('ies126', '9'), ('ies127', '9'), ('ies128', '8'), ('ies129', '8'), ('ies130', '3'), ('ies131', '9'), ('ies132', '8'), ('ies133', '6'), ('ies134', '9'), ('ies135', '3'), ('ies136', '7'), ('ies137', '6'), ('ies138', '8'), ('ies139', '4'), ('ies140', '3'), ('ies141', '4'), ('ies142', '3'), ('ies143', '9'), ('ies144', '8'), ('ies145', '6'), ('ies146', '9'), ('ies147', '9'), ('ies148', '8'), ('ies149', '8'), ('ies150', '9'), ('ies151', '5'), ('ies152', '6'), ('ies153', '4'), ('ies154', '7'), ('ies155', '4'), ('ies156', '5'), ('ipt001', '8'), ('ipt002', '9'), ('ipt003', '3'), ('ipt004', '7'), ('ipt005', '8'), ('ipt006', '4'), ('ipt007', '6'), ('ipt008', '8'), ('ipt009', '9'), ('ipt010', '7'), ('ipt011', '7'), ('ipt012', '8'), ('ipt013', '9'), ('ipt014', '9'), ('ipt015', '5'), ('ipt016', '8'), ('ipt017', '8'), ('ipt018', '8'), ('ipt019', '8'), ('ipt020', '6'), ('ipt021', '5'), ('ipt022', '8'), ('ipt023', '8'), ('ipt024', '7'), ('ipt025', '3'), ('ipt026', '6'), ('ipt027', '8'), ('ipt028', '4'), ('ipt029', '7'), ('ipt030', '5'), ('ipt031', '8'), ('ipt032', '8'), ('ipt033', '8'), ('ipt034', '8'), ('ipt035', '3'), ('ipt036', '5'), ('ipt037', '8'), ('ipt038', '8'), ('ipt039', '6'), ('ipt040', '8'), ('ipt041', '6'), ('ipt042', '9'), ('ipt043', '6'), ('ipt044', '9'), ('ipt045', '9'), ('ipt046', '8'), ('ipt047', '9'), ('ipt048', '3'), ('ipt049', '6'), ('ipt050', '8'), ('ipt051', '4'), ('ipt052', '6'), ('ipt053', '8'), ('ipt054', '8'), ('ipt055', '4'), ('ipt056', '8'), ('ipt057', '7'), ('ipt058', '9'), ('ipt059', '4'), ('ipt060', '8'), ('ipt061', '8'), ('ipt062', '3'), ('ipt063', '3'), ('ipt064', '7'), ('ipt065', '8'), ('ipt066', '8'), ('ipt067', '8'), ('ipt068', '8'), ('ipt069', '6'), ('ipt070', '7'), ('ipt071', '6'), ('ipt072', '8'), ('ipt073', '9'), ('ipt074', '8'), ('ipt075', '5'), ('ipt076', '8'), ('ipt077', '8'), ('ipt078', '4'), ('ipt079', '4'), ('ipt080', '4'), ('ipt081', '8'), ('ipt082', '9'), ('ipt083', '7'), ('ipt084', '7'), ('ipt085', '7'), ('ipt086', '9'), ('ipt087', '8'), ('ipt088', '4'), ('ipt089', '5'), ('ipt090', '9'), ('ipt091', '8'), ('ipt092', '8'), ('ipt093', '8'), ('ipt094', '4'), ('ipt095', '9'), ('ipt096', '8'), ('ipt097', '9'), ('ipt098', '8'), ('ipt099', '6'), ('ipt100', '8'), ('ipt101', '4'), ('ipt102', '7'), ('ipt103', '7'), ('ipt104', '5'), ('ipt105', '7'), ('ipt106', '6'), ('ipt107', '8'), ('ipt108', '8'), ('ipt109', '8'), ('ipt110', '8'), ('ipt111', '8'), ('ipt112', '8'), ('ipt113', '7'), ('ipt114', '7'), ('ipt115', '7'), ('ipt116', '6'), ('ipt117', '8'), ('ipt118', '8'), ('ipt119', '8'), ('ipt120', '9')]</items>
+        <calc_info>[('value', 43), ('mean', 59.279601990000003), ('stddev', 38.009590490299999), ('stdscore', 45.716975168634207)]</calc_info>
+      </high-score-index>
+      <response-variance-index>
+        <calc_type>standardized_stddev</calc_type>
+        <items>[('ies001', '9'), ('ies002', '8'), ('ies003', '9'), ('ies004', '9'), ('ies005', '6'), ('ies006', '8'), ('ies007', '9'), ('ies008', '9'), ('ies009', '8'), ('ies010', '4'), ('ies011', '9'), ('ies012', '7'), ('ies013', '7'), ('ies014', '7'), ('ies015', '3'), ('ies016', '10'), ('ies017', '8'), ('ies018', '7'), ('ies019', '3'), ('ies020', '7'), ('ies021', '8'), ('ies022', '8'), ('ies023', '8'), ('ies024', '4'), ('ies025', '7'), ('ies026', '8'), ('ies027', '9'), ('ies028', '8'), ('ies029', '9'), ('ies030', '8'), ('ies031', '8'), ('ies032', '7'), ('ies033', '2'), ('ies034', '7'), ('ies035', '3'), ('ies036', '9'), ('ies037', '8'), ('ies038', '6'), ('ies039', '8'), ('ies040', '7'), ('ies041', '4'), ('ies042', '7'), ('ies043', '3'), ('ies044', '8'), ('ies045', '7'), ('ies046', '3'), ('ies047', '7'), ('ies048', '7'), ('ies049', '3'), ('ies050', '8'), ('ies051', '8'), ('ies052', '9'), ('ies053', '4'), ('ies054', '8'), ('ies055', '7'), ('ies056', '8'), ('ies057', '3'), ('ies058', '6'), ('ies059', '8'), ('ies060', '8'), ('ies061', '5'), ('ies062', '8'), ('ies063', '6'), ('ies064', '8'), ('ies065', '8'), ('ies066', '8'), ('ies067', '8'), ('ies068', '8'), ('ies069', '10'), ('ies070', '6'), ('ies071', '6'), ('ies072', '7'), ('ies073', '8'), ('ies074', '6'), ('ies075', '3'), ('ies076', '3'), ('ies077', '8'), ('ies078', '7'), ('ies079', '5'), ('ies080', '9'), ('ies081', '8'), ('ies082', '8'), ('ies083', '8'), ('ies084', '6'), ('ies085', '3'), ('ies086', '6'), ('ies087', '8'), ('ies088', '8'), ('ies089', '8'), ('ies090', '9'), ('ies091', '4'), ('ies092', '9'), ('ies093', '6'), ('ies094', '9'), ('ies095', '4'), ('ies096', '6'), ('ies097', '7'), ('ies098', '6'), ('ies099', '8'), ('ies100', '8'), ('ies101', '9'), ('ies102', '9'), ('ies103', '5'), ('ies104', '7'), ('ies105', '7'), ('ies106', '7'), ('ies107', '4'), ('ies108', '7'), ('ies109', '4'), ('ies110', '3'), ('ies111', '6'), ('ies112', '8'), ('ies113', '4'), ('ies114', '6'), ('ies115', '3'), ('ies116', '7'), ('ies117', '3'), ('ies118', '4'), ('ies119', '7'), ('ies120', '6'), ('ies121', '3'), ('ies122', '2'), ('ies123', '9'), ('ies124', '4'), ('ies125', '7'), ('ies126', '9'), ('ies127', '9'), ('ies128', '8'), ('ies129', '8'), ('ies130', '3'), ('ies131', '9'), ('ies132', '8'), ('ies133', '6'), ('ies134', '9'), ('ies135', '3'), ('ies136', '7'), ('ies137', '6'), ('ies138', '8'), ('ies139', '4'), ('ies140', '3'), ('ies141', '4'), ('ies142', '3'), ('ies143', '9'), ('ies144', '8'), ('ies145', '6'), ('ies146', '9'), ('ies147', '9'), ('ies148', '8'), ('ies149', '8'), ('ies150', '9'), ('ies151', '5'), ('ies152', '6'), ('ies153', '4'), ('ies154', '7'), ('ies155', '4'), ('ies156', '5'), ('ipt001', '8'), ('ipt002', '9'), ('ipt003', '3'), ('ipt004', '7'), ('ipt005', '8'), ('ipt006', '4'), ('ipt007', '6'), ('ipt008', '8'), ('ipt009', '9'), ('ipt010', '7'), ('ipt011', '7'), ('ipt012', '8'), ('ipt013', '9'), ('ipt014', '9'), ('ipt015', '5'), ('ipt016', '8'), ('ipt017', '8'), ('ipt018', '8'), ('ipt019', '8'), ('ipt020', '6'), ('ipt021', '5'), ('ipt022', '8'), ('ipt023', '8'), ('ipt024', '7'), ('ipt025', '3'), ('ipt026', '6'), ('ipt027', '8'), ('ipt028', '4'), ('ipt029', '7'), ('ipt030', '5'), ('ipt031', '8'), ('ipt032', '8'), ('ipt033', '8'), ('ipt034', '8'), ('ipt035', '3'), ('ipt036', '5'), ('ipt037', '8'), ('ipt038', '8'), ('ipt039', '6'), ('ipt040', '8'), ('ipt041', '6'), ('ipt042', '9'), ('ipt043', '6'), ('ipt044', '9'), ('ipt045', '9'), ('ipt046', '8'), ('ipt047', '9'), ('ipt048', '3'), ('ipt049', '6'), ('ipt050', '8'), ('ipt051', '4'), ('ipt052', '6'), ('ipt053', '8'), ('ipt054', '8'), ('ipt055', '4'), ('ipt056', '8'), ('ipt057', '7'), ('ipt058', '9'), ('ipt059', '4'), ('ipt060', '8'), ('ipt061', '8'), ('ipt062', '3'), ('ipt063', '3'), ('ipt064', '7'), ('ipt065', '8'), ('ipt066', '8'), ('ipt067', '8'), ('ipt068', '8'), ('ipt069', '6'), ('ipt070', '7'), ('ipt071', '6'), ('ipt072', '8'), ('ipt073', '9'), ('ipt074', '8'), ('ipt075', '5'), ('ipt076', '8'), ('ipt077', '8'), ('ipt078', '4'), ('ipt079', '4'), ('ipt080', '4'), ('ipt081', '8'), ('ipt082', '9'), ('ipt083', '7'), ('ipt084', '7'), ('ipt085', '7'), ('ipt086', '9'), ('ipt087', '8'), ('ipt088', '4'), ('ipt089', '5'), ('ipt090', '9'), ('ipt091', '8'), ('ipt092', '8'), ('ipt093', '8'), ('ipt094', '4'), ('ipt095', '9'), ('ipt096', '8'), ('ipt097', '9'), ('ipt098', '8'), ('ipt099', '6'), ('ipt100', '8'), ('ipt101', '4'), ('ipt102', '7'), ('ipt103', '7'), ('ipt104', '5'), ('ipt105', '7'), ('ipt106', '6'), ('ipt107', '8'), ('ipt108', '8'), ('ipt109', '8'), ('ipt110', '8'), ('ipt111', '8'), ('ipt112', '8'), ('ipt113', '7'), ('ipt114', '7'), ('ipt115', '7'), ('ipt116', '6'), ('ipt117', '8'), ('ipt118', '8'), ('ipt119', '8'), ('ipt120', '9')]</items>
+        <calc_info>[('value', 1.9181540313568513), ('mean', 2.3324047969000001), ('stddev', 0.50804753629999999), ('stdscore', 41.846220364337412), ('reversed score', 58.153779635662588)]</calc_info>
+      </response-variance-index>
+      <low-score-index>
+        <calc_type>standardized_item_count_low</calc_type>
+        <items>[('ies001', '9'), ('ies002', '8'), ('ies003', '9'), ('ies004', '9'), ('ies005', '6'), ('ies006', '8'), ('ies007', '9'), ('ies008', '9'), ('ies009', '8'), ('ies010', '4'), ('ies011', '9'), ('ies012', '7'), ('ies013', '7'), ('ies014', '7'), ('ies015', '3'), ('ies016', '10'), ('ies017', '8'), ('ies018', '7'), ('ies019', '3'), ('ies020', '7'), ('ies021', '8'), ('ies022', '8'), ('ies023', '8'), ('ies024', '4'), ('ies025', '7'), ('ies026', '8'), ('ies027', '9'), ('ies028', '8'), ('ies029', '9'), ('ies030', '8'), ('ies031', '8'), ('ies032', '7'), ('ies033', '2'), ('ies034', '7'), ('ies035', '3'), ('ies036', '9'), ('ies037', '8'), ('ies038', '6'), ('ies039', '8'), ('ies040', '7'), ('ies041', '4'), ('ies042', '7'), ('ies043', '3'), ('ies044', '8'), ('ies045', '7'), ('ies046', '3'), ('ies047', '7'), ('ies048', '7'), ('ies049', '3'), ('ies050', '8'), ('ies051', '8'), ('ies052', '9'), ('ies053', '4'), ('ies054', '8'), ('ies055', '7'), ('ies056', '8'), ('ies057', '3'), ('ies058', '6'), ('ies059', '8'), ('ies060', '8'), ('ies061', '5'), ('ies062', '8'), ('ies063', '6'), ('ies064', '8'), ('ies065', '8'), ('ies066', '8'), ('ies067', '8'), ('ies068', '8'), ('ies069', '10'), ('ies070', '6'), ('ies071', '6'), ('ies072', '7'), ('ies073', '8'), ('ies074', '6'), ('ies075', '3'), ('ies076', '3'), ('ies077', '8'), ('ies078', '7'), ('ies079', '5'), ('ies080', '9'), ('ies081', '8'), ('ies082', '8'), ('ies083', '8'), ('ies084', '6'), ('ies085', '3'), ('ies086', '6'), ('ies087', '8'), ('ies088', '8'), ('ies089', '8'), ('ies090', '9'), ('ies091', '4'), ('ies092', '9'), ('ies093', '6'), ('ies094', '9'), ('ies095', '4'), ('ies096', '6'), ('ies097', '7'), ('ies098', '6'), ('ies099', '8'), ('ies100', '8'), ('ies101', '9'), ('ies102', '9'), ('ies103', '5'), ('ies104', '7'), ('ies105', '7'), ('ies106', '7'), ('ies107', '4'), ('ies108', '7'), ('ies109', '4'), ('ies110', '3'), ('ies111', '6'), ('ies112', '8'), ('ies113', '4'), ('ies114', '6'), ('ies115', '3'), ('ies116', '7'), ('ies117', '3'), ('ies118', '4'), ('ies119', '7'), ('ies120', '6'), ('ies121', '3'), ('ies122', '2'), ('ies123', '9'), ('ies124', '4'), ('ies125', '7'), ('ies126', '9'), ('ies127', '9'), ('ies128', '8'), ('ies129', '8'), ('ies130', '3'), ('ies131', '9'), ('ies132', '8'), ('ies133', '6'), ('ies134', '9'), ('ies135', '3'), ('ies136', '7'), ('ies137', '6'), ('ies138', '8'), ('ies139', '4'), ('ies140', '3'), ('ies141', '4'), ('ies142', '3'), ('ies143', '9'), ('ies144', '8'), ('ies145', '6'), ('ies146', '9'), ('ies147', '9'), ('ies148', '8'), ('ies149', '8'), ('ies150', '9'), ('ies151', '5'), ('ies152', '6'), ('ies153', '4'), ('ies154', '7'), ('ies155', '4'), ('ies156', '5'), ('ipt001', '8'), ('ipt002', '9'), ('ipt003', '3'), ('ipt004', '7'), ('ipt005', '8'), ('ipt006', '4'), ('ipt007', '6'), ('ipt008', '8'), ('ipt009', '9'), ('ipt010', '7'), ('ipt011', '7'), ('ipt012', '8'), ('ipt013', '9'), ('ipt014', '9'), ('ipt015', '5'), ('ipt016', '8'), ('ipt017', '8'), ('ipt018', '8'), ('ipt019', '8'), ('ipt020', '6'), ('ipt021', '5'), ('ipt022', '8'), ('ipt023', '8'), ('ipt024', '7'), ('ipt025', '3'), ('ipt026', '6'), ('ipt027', '8'), ('ipt028', '4'), ('ipt029', '7'), ('ipt030', '5'), ('ipt031', '8'), ('ipt032', '8'), ('ipt033', '8'), ('ipt034', '8'), ('ipt035', '3'), ('ipt036', '5'), ('ipt037', '8'), ('ipt038', '8'), ('ipt039', '6'), ('ipt040', '8'), ('ipt041', '6'), ('ipt042', '9'), ('ipt043', '6'), ('ipt044', '9'), ('ipt045', '9'), ('ipt046', '8'), ('ipt047', '9'), ('ipt048', '3'), ('ipt049', '6'), ('ipt050', '8'), ('ipt051', '4'), ('ipt052', '6'), ('ipt053', '8'), ('ipt054', '8'), ('ipt055', '4'), ('ipt056', '8'), ('ipt057', '7'), ('ipt058', '9'), ('ipt059', '4'), ('ipt060', '8'), ('ipt061', '8'), ('ipt062', '3'), ('ipt063', '3'), ('ipt064', '7'), ('ipt065', '8'), ('ipt066', '8'), ('ipt067', '8'), ('ipt068', '8'), ('ipt069', '6'), ('ipt070', '7'), ('ipt071', '6'), ('ipt072', '8'), ('ipt073', '9'), ('ipt074', '8'), ('ipt075', '5'), ('ipt076', '8'), ('ipt077', '8'), ('ipt078', '4'), ('ipt079', '4'), ('ipt080', '4'), ('ipt081', '8'), ('ipt082', '9'), ('ipt083', '7'), ('ipt084', '7'), ('ipt085', '7'), ('ipt086', '9'), ('ipt087', '8'), ('ipt088', '4'), ('ipt089', '5'), ('ipt090', '9'), ('ipt091', '8'), ('ipt092', '8'), ('ipt093', '8'), ('ipt094', '4'), ('ipt095', '9'), ('ipt096', '8'), ('ipt097', '9'), ('ipt098', '8'), ('ipt099', '6'), ('ipt100', '8'), ('ipt101', '4'), ('ipt102', '7'), ('ipt103', '7'), ('ipt104', '5'), ('ipt105', '7'), ('ipt106', '6'), ('ipt107', '8'), ('ipt108', '8'), ('ipt109', '8'), ('ipt110', '8'), ('ipt111', '8'), ('ipt112', '8'), ('ipt113', '7'), ('ipt114', '7'), ('ipt115', '7'), ('ipt116', '6'), ('ipt117', '8'), ('ipt118', '8'), ('ipt119', '8'), ('ipt120', '9')]</items>
+        <calc_info>[('value', 2), ('mean', 22.607462686600002), ('stddev', 18.923179755300001), ('stdscore', 39.109936621075391)]</calc_info>
+      </low-score-index>
+      <central-tendency-index>
+        <calc_type>standardized_item_count_mid</calc_type>
+        <items>[('ies001', '9'), ('ies002', '8'), ('ies003', '9'), ('ies004', '9'), ('ies005', '6'), ('ies006', '8'), ('ies007', '9'), ('ies008', '9'), ('ies009', '8'), ('ies010', '4'), ('ies011', '9'), ('ies012', '7'), ('ies013', '7'), ('ies014', '7'), ('ies015', '3'), ('ies016', '10'), ('ies017', '8'), ('ies018', '7'), ('ies019', '3'), ('ies020', '7'), ('ies021', '8'), ('ies022', '8'), ('ies023', '8'), ('ies024', '4'), ('ies025', '7'), ('ies026', '8'), ('ies027', '9'), ('ies028', '8'), ('ies029', '9'), ('ies030', '8'), ('ies031', '8'), ('ies032', '7'), ('ies033', '2'), ('ies034', '7'), ('ies035', '3'), ('ies036', '9'), ('ies037', '8'), ('ies038', '6'), ('ies039', '8'), ('ies040', '7'), ('ies041', '4'), ('ies042', '7'), ('ies043', '3'), ('ies044', '8'), ('ies045', '7'), ('ies046', '3'), ('ies047', '7'), ('ies048', '7'), ('ies049', '3'), ('ies050', '8'), ('ies051', '8'), ('ies052', '9'), ('ies053', '4'), ('ies054', '8'), ('ies055', '7'), ('ies056', '8'), ('ies057', '3'), ('ies058', '6'), ('ies059', '8'), ('ies060', '8'), ('ies061', '5'), ('ies062', '8'), ('ies063', '6'), ('ies064', '8'), ('ies065', '8'), ('ies066', '8'), ('ies067', '8'), ('ies068', '8'), ('ies069', '10'), ('ies070', '6'), ('ies071', '6'), ('ies072', '7'), ('ies073', '8'), ('ies074', '6'), ('ies075', '3'), ('ies076', '3'), ('ies077', '8'), ('ies078', '7'), ('ies079', '5'), ('ies080', '9'), ('ies081', '8'), ('ies082', '8'), ('ies083', '8'), ('ies084', '6'), ('ies085', '3'), ('ies086', '6'), ('ies087', '8'), ('ies088', '8'), ('ies089', '8'), ('ies090', '9'), ('ies091', '4'), ('ies092', '9'), ('ies093', '6'), ('ies094', '9'), ('ies095', '4'), ('ies096', '6'), ('ies097', '7'), ('ies098', '6'), ('ies099', '8'), ('ies100', '8'), ('ies101', '9'), ('ies102', '9'), ('ies103', '5'), ('ies104', '7'), ('ies105', '7'), ('ies106', '7'), ('ies107', '4'), ('ies108', '7'), ('ies109', '4'), ('ies110', '3'), ('ies111', '6'), ('ies112', '8'), ('ies113', '4'), ('ies114', '6'), ('ies115', '3'), ('ies116', '7'), ('ies117', '3'), ('ies118', '4'), ('ies119', '7'), ('ies120', '6'), ('ies121', '3'), ('ies122', '2'), ('ies123', '9'), ('ies124', '4'), ('ies125', '7'), ('ies126', '9'), ('ies127', '9'), ('ies128', '8'), ('ies129', '8'), ('ies130', '3'), ('ies131', '9'), ('ies132', '8'), ('ies133', '6'), ('ies134', '9'), ('ies135', '3'), ('ies136', '7'), ('ies137', '6'), ('ies138', '8'), ('ies139', '4'), ('ies140', '3'), ('ies141', '4'), ('ies142', '3'), ('ies143', '9'), ('ies144', '8'), ('ies145', '6'), ('ies146', '9'), ('ies147', '9'), ('ies148', '8'), ('ies149', '8'), ('ies150', '9'), ('ies151', '5'), ('ies152', '6'), ('ies153', '4'), ('ies154', '7'), ('ies155', '4'), ('ies156', '5'), ('ipt001', '8'), ('ipt002', '9'), ('ipt003', '3'), ('ipt004', '7'), ('ipt005', '8'), ('ipt006', '4'), ('ipt007', '6'), ('ipt008', '8'), ('ipt009', '9'), ('ipt010', '7'), ('ipt011', '7'), ('ipt012', '8'), ('ipt013', '9'), ('ipt014', '9'), ('ipt015', '5'), ('ipt016', '8'), ('ipt017', '8'), ('ipt018', '8'), ('ipt019', '8'), ('ipt020', '6'), ('ipt021', '5'), ('ipt022', '8'), ('ipt023', '8'), ('ipt024', '7'), ('ipt025', '3'), ('ipt026', '6'), ('ipt027', '8'), ('ipt028', '4'), ('ipt029', '7'), ('ipt030', '5'), ('ipt031', '8'), ('ipt032', '8'), ('ipt033', '8'), ('ipt034', '8'), ('ipt035', '3'), ('ipt036', '5'), ('ipt037', '8'), ('ipt038', '8'), ('ipt039', '6'), ('ipt040', '8'), ('ipt041', '6'), ('ipt042', '9'), ('ipt043', '6'), ('ipt044', '9'), ('ipt045', '9'), ('ipt046', '8'), ('ipt047', '9'), ('ipt048', '3'), ('ipt049', '6'), ('ipt050', '8'), ('ipt051', '4'), ('ipt052', '6'), ('ipt053', '8'), ('ipt054', '8'), ('ipt055', '4'), ('ipt056', '8'), ('ipt057', '7'), ('ipt058', '9'), ('ipt059', '4'), ('ipt060', '8'), ('ipt061', '8'), ('ipt062', '3'), ('ipt063', '3'), ('ipt064', '7'), ('ipt065', '8'), ('ipt066', '8'), ('ipt067', '8'), ('ipt068', '8'), ('ipt069', '6'), ('ipt070', '7'), ('ipt071', '6'), ('ipt072', '8'), ('ipt073', '9'), ('ipt074', '8'), ('ipt075', '5'), ('ipt076', '8'), ('ipt077', '8'), ('ipt078', '4'), ('ipt079', '4'), ('ipt080', '4'), ('ipt081', '8'), ('ipt082', '9'), ('ipt083', '7'), ('ipt084', '7'), ('ipt085', '7'), ('ipt086', '9'), ('ipt087', '8'), ('ipt088', '4'), ('ipt089', '5'), ('ipt090', '9'), ('ipt091', '8'), ('ipt092', '8'), ('ipt093', '8'), ('ipt094', '4'), ('ipt095', '9'), ('ipt096', '8'), ('ipt097', '9'), ('ipt098', '8'), ('ipt099', '6'), ('ipt100', '8'), ('ipt101', '4'), ('ipt102', '7'), ('ipt103', '7'), ('ipt104', '5'), ('ipt105', '7'), ('ipt106', '6'), ('ipt107', '8'), ('ipt108', '8'), ('ipt109', '8'), ('ipt110', '8'), ('ipt111', '8'), ('ipt112', '8'), ('ipt113', '7'), ('ipt114', '7'), ('ipt115', '7'), ('ipt116', '6'), ('ipt117', '8'), ('ipt118', '8'), ('ipt119', '8'), ('ipt120', '9')]</items>
+        <calc_info>[('value', 44), ('mean', 56.5009950249), ('stddev', 31.1305872105), ('stdscore', 45.98433690300466)]</calc_info>
+      </central-tendency-index>
+    </validity_indices>
+  </debugging>
+</lsi_scores>

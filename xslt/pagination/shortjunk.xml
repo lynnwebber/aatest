@@ -1,0 +1,20 @@
+<?xml version="1.0"?>
+<raw_scores>
+  <scores>
+    <JPI001>
+      <attr_name>Bonanza</attr_name>
+      <definition_stmt>TV Show</definition_stmt>
+      <derailer_stmt>fake backgrounds</derailer_stmt>
+    </JPI001>
+    <JPI002>
+      <attr_name>mash</attr_name>
+      <definition_stmt>TV Show</definition_stmt>
+      <derailer_stmt>too much activism</derailer_stmt>
+    </JPI002>
+    <JPI003>
+      <attr_name>Everybody Loves Raymond</attr_name>
+      <definition_stmt>TV Show</definition_stmt>
+      <derailer_stmt>on every night</derailer_stmt>
+    </JPI003>
+  </scores>
+</raw_scores>

@@ -1,0 +1,18 @@
+<?xml version="1.0"?>
+<hub_remote_comm_req rev="0.1">
+    <target>
+        <ip_address>127.0.0.1</ip_address>
+        <pod_id>1644</pod_id>
+        <sensor_id>21234</sensor_id>
+        <comm_type>MODBUS_WRITE</comm_type>
+        <!-- vaid types MODBUS_WRITE -->
+        <comments></comments>
+        <!-- comments will be placed in log -->
+    </target>
+    <mb_write>
+        <slave_id>03</slave_id>
+        <function_code>04</function_code>
+        <output_address>44355</output_address>
+        <output_value>0x04</output_value>
+    </mb_write>
+</hub_remote_comm_req>

@@ -1,0 +1,7 @@
+2013-01-15 17:24:04,970 - atest - <module> - INFO - this is a test of the my logger
+2013-01-15 17:24:04,970 - dsparse - write_stuff - INFO - message from write_stuff
+2013-01-15 17:26:41,350 - atest - atest_main - INFO - this is a test of the my logger
+2013-01-15 17:26:41,350 - dsparse - write_stuff - INFO - message from write_stuff
+2013-01-15 17:28:14,373 - atest - atest_main - INFO - ------ Starting service --------
+2013-01-15 17:28:14,373 - atest - atest_main - INFO - this is a test of the my logger
+2013-01-15 17:28:14,374 - dsparse - write_stuff - INFO - message from write_stuff
