@@ -11,7 +11,62 @@ clnt:set('rdg:8.23792.1',24.3)
 clnt:set('rdg:8.12179.1',46.257)
 
 -- load some alarm functions
+talrm = [[
+function check_alarm()
+    val=get_reading("8.12119.1")
+    if val == nil then
+        return 99
+    end
+    if tonumber(val) > 10.2 then
+        return 1
+    else
+        return 0
+    end
+end
+]]
+clnt:set('alrm:8.12119.1',talrm)
 
-clnt:set('alrm:8.12119.1','function check_alarm () val=get_value("8.12119.1"), if val > 10.2 then return 1 else return 0 end')
-clnt:set('alrm:8.12120.1','function check_alarm () val=get_value("8.12120.1"), if val > 12.5 then return 1 else return 0 end')
-clnt:set('alrm:8.14662.1','function check_alarm () val=get_value("8.14662.1"), if val > 10.2 then return 1 else return 0 end')
+talrm = [[
+function check_alarm()
+    val=get_reading("8.12120.1");
+    if val == nil then
+        return 99
+    end
+    if tonumber(val) > 12.5 then
+        return 1
+    else
+        return 0
+    end;
+end
+]]
+clnt:set('alrm:8.12120.1',talrm)
+
+talrm = [[
+function check_alarm()
+    val=get_reading("8.14662.1");
+    if val == nil then
+        return 99
+    end
+    if tonumber(val) > 10.2 then
+        return 1
+    else
+        return 0
+    end;
+end
+]]
+clnt:set('alrm:8.14662.1',talrm)
+
+talrm = [[
+function check_alarm()
+    val=get_reading("10.1.1");
+    if val == nil then
+        return 99
+    end
+    if tonumber(val) > 10.2 then
+        return 1
+    else
+        return 0
+    end;
+end
+]]
+clnt:set('alrm:10.1.1',talrm)
