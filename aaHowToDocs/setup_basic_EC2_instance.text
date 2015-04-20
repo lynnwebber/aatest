@@ -1,0 +1,55 @@
+#How-To Setup Basic EC2 Instance
+##Purpose
+This document describes how to setup a simple EC2 instance and create
+the user accounts you will need for developers to access, configure, and 
+maintain the instance.  
+
+Assumptions:
+* instance is being built from the ground up
+* using Ubuntu or other Debian linux
+
+###Launching the Instance
+Basically follow the bouncing ball on under AWS hera are the steps:
+* Choose AMI - Ubuntu
+* Choose Instance type - Determine depending on whether it is production or development
+* Configure Instance 
+* Add Storage 
+* Tag Instance - name 
+* Configure Security Group -  
+* Review and launch using web wizard
+
+###Initial Login
+* You have to have access to the key-pair that you built the instance with such as west-lynn-admin-keypair
+* ssh -i .ec2/west-lynn-admin-keypair.pem ubuntu@<54.187.74.82> *replacing with the correct IP address*
+
+###Install/Verify OpenSSL
+* on the ubuntu instance from amazon openssl is installed by default (yay!!!)
+
+###Public DNS
+Add public name to external DNS if needed.
+
+* using route53 find the zone you want to update and then add the A record
+
+###Add User Accounts:
+- Prerequsites
+    - get public rsa key from the user
+    - get username from the person
+    - make sure they know their pass phrase
+- Setup Steps
+    - Logon as ubuntu or standard ec2 instance cloud-init user
+    - sudo adduser <newuser>
+    - sudo su <newuser>
+    - cd (to home directory)
+    - mkdir .ssh
+    - chmod 700 .ssh
+    - touch .ssh/authorized_keys
+    - vi authorized_keys
+    - paste in the public ssh key for the user
+    - save/exit
+- Add to sudo(ers)
+    - sudo usermod -a -G <groupname> <username>
+    - groupname = sudo 
+
+####How to remove from sudo(ers)
+- sudo deluser *username* *groupname*
+
