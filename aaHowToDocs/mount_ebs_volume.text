@@ -1,0 +1,54 @@
+
+#How-To Mount an EBS volume to a EC2 instance:
+##Purpose
+The purpose of this document is to explain how to mount an assigned
+EBS volume to a linux (ubuntu) machine running on AWS.
+
+##Assumptions:
+* you already have a provisioned EC2 instance
+* you added at least 1 ebs volume at the time you launched the instance
+* you know the size of the volume you are mounting to make it easier to identify
+
+
+####Follow the steps on the Amazon Doc:
+
+Link to the [Amazon guide](http://docs.aws.amazon.com/AWSEC2/latest/UserGuide/ebs-using-volumes.html) for mounting EBS Volumes (good document).
+
+* <http://docs.aws.amazon.com/AWSEC2/latest/UserGuide/ebs-using-volumes.html>
+
+* * *
+####Command Reference:
+* To find block devices
+    ```
+    lsblk
+    ```
+* To determine if you have a file system on a block device
+    ```
+    sudo file -s /dev/xvd?
+    ```
+* To put a file system on a device (use caution - wipes device)
+    ```
+    sudo mkfs -t ext4 /dev/xvd?
+    ```
+* To make a mount point
+    ```
+    cd /
+    sudo mkdir /data  (or mount point name of your choice)
+    ```
+* To mount the device by hand
+    ```
+                device    mount-point
+    sudo mount /dev/xvd? /data
+    ```
+* Update fstab so it will mount automatically at reboot
+    ```
+    sudo cp /etc/fstab /etc/fstab.orig
+    vi /etc/fstab
+    # insert the followig information at the bottom
+    # device_name     mount_point   fs_type    fs_mountops                   fs_freq  fs_passno
+    /dev/xvd?         /data         ext4       defaults,nofail,nobootwait    0        2
+    ```
+* To test your fstab file
+    ```
+    sudo mount -a
+    ```

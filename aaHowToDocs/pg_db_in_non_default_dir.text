@@ -1,0 +1,58 @@
+
+#How-To Set Postgresql Database files in non-default location:
+##Purpose
+How to setup a postgresql database in a non-default location like
+a mounted EBS volume (for instance)
+
+##Assumptions:
+* you already have a provisioned EC2 instance
+* you added at least 1 ebs volume at the time you launched the instance
+* you know the mount point of the volume
+* To Find the mount point for a volume use:
+    ```
+    lsblk
+    ```
+
+####Make sure postgres and tools are installed:
+* update your list of libraries and then install
+
+    ```
+    sudo apt-get update
+    sudo apt-get install postgresql postgresql-contrib
+    ```
+
+####Change the user postgres password:
+* I usually use *postgres* as the password for this account
+    ```
+    sudo passwd postgres
+    ```
+
+####Setup the new directory that will hold the DB files:
+For this example lets say that the new directory is named `/data/pgdatabase`
+
+* First we need to change the owner of the directory to postgres
+    ```
+    sudo chown -R postgres:postgres /data/pgdatabase
+    ```
+* initalize the folder as a database folder (must be done as postgres)
+    ```
+    su postgres
+    /usr/lib/postgresql/9.3/bin/initdb -D /data/pgdatabase
+    exit
+    ```
+* Stop the postgres server
+    ```
+    sudo service postgresql stop
+    ```
+* Update the configuration file to use the new location
+    ```
+    sudo vi /etc/postgresql/9.3/main/postgresql.conf,
+    #change
+    # data_directory = ‘/var/lib/postgresql/9.3/main’
+    #to
+    # data_directory = ‘/data/pgdatabase’
+    ```
+* Start the database server
+    ```
+    sudo service postgresql start
+    ```

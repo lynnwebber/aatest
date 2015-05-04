@@ -1,7 +1,7 @@
 #How-To Setup Base WK AWS Linix Instance:
 ##Purpose
 The purpose of this document is to explain how to setup a basic instance
-that can be used as an AMI on AWS.  It goes through how to install the 
+that can be used as an AMI on AWS.  It goes through how to install the
 common Wellkeeper programming languages and packages to prepare a system
 for use as an AMI.
 
@@ -19,7 +19,7 @@ Assumptions:
 
 ####Go Language:
 - DO NOT use apt-get to install the go programming language.  Typically the libraries supported by apt-get are older than the most recent version of GO.
-- Prerequisites:  
+- Prerequisites:
     - sudo apt-get install git
     - sudo apt-get install binutils bison gcc make
     - sudo apt-get install mercurial
@@ -30,9 +30,9 @@ Assumptions:
     ```
     [[ -s "$HOME/.gvm/scripts/gvm" ]] && source "$HOME/.gvm/scripts/gvm"
     ```
-    *Note: check the .bashrc file to make sure the gvm install did not add the above line to the 
+    *Note: check the .bashrc file to make sure the gvm install did not add the above line to the
         end of that file also.  If so simply comment it out.*
-        
+
     - logoff and logon to run scripts
     - verify by running “gvm version” from command line and you should get something like this:
         - Go Version Manager v1.0.22 installed at /home/wellkeeper/.gvm
@@ -55,7 +55,7 @@ export PATH=$PATH:$GOPATH/bin
 - add the "common" Go libraries
     - go get "github.com/bitly/go-nsq"
     - go get "github.com/lib/pq"
-    - go get “git.eclipse.org/gitroot/paho/org.eclipse.paho.mqtt.golang.git"
+    - go get git.eclipse.org/gitroot/paho/org.eclipse.paho.mqtt.golang.git
 
 * * *
 ####Python Language:
@@ -68,12 +68,12 @@ export PATH=$PATH:$GOPATH/bin
     - sudo apt-get install build-essential python-dev
     - sudo pip install pynsq
     - sudo pip install redis
+    - sudo pip install boto
     *Note:  May have to install postgreSQL before the following two will work properly. (see below)*
     - sudo apt-get install python-psycopg2
     - sudo apt-get install python-psycopg2-dbg
-** need to add Dynamo DB libraries **
 
-* * * 
+* * *
 ####Lua Language:
 - Lua 5.2 is available via apt-get
     - sudo apt-get install lua5.2
@@ -86,20 +86,18 @@ export PATH=$PATH:$GOPATH/bin
         - sudo luarocks install luadbi
         - sudo luarocks install luadbi-postgresql
 
-* * * 
+* * *
 ####Redis and Tools:
 - sudo apt-get install redis-server
 - sudo apt-get install redis-tools
 
-* * * 
+* * *
 ####PostgreSQL and Tools:
 - sudo apt-get install postgresql
 - sudo /etc/init.d/postgresql stop
 - sudo apt-get install postgresql-client
 
-* * * 
+* * *
 ####Supervisord:
 - Although there is a distribution package for “supervisor” it is typically very out of date.  We should probably install the most current at the time of building the image using pip.
 - sudo pip install supervisor --pre
-
-
