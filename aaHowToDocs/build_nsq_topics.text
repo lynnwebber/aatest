@@ -1,0 +1,38 @@
+#How-To build NSQ topics/channels:
+##Purpose
+This document shows how to build NSQ topics and channels
+from a shell script using cURL
+
+##Assumptions:
+* you already have an nsqd server runnint
+* an nsqlookupd is also running
+* you know the name of the topics and channels you need
+
+
+####cURL command to add topic:
+
+```
+curl -d '' 'http://fds-nsqd.wellkeeper.info:4151/topic/create?topic=inbound_json'
+```
+
+The topic that will be built is "inbound_json"
+
+####cURL command to add a channel to a topic:
+
+```
+curl -d '' 'http://fds-nsqd.wellkeeper.info:4151/channel/create?topic=inbound_json&channel=idfix'
+```
+
+The channel that will be added to topic "inbound_json" is "idfix"
+
+
+####To verify that they were built properly:
+Check with the nsqlookupd instance to verify that topics/channels were
+created properly.
+
+Here are the commands to use for checking each:
+
+```
+curl http://nsqlookupd1.wellkeeper.info:4161/topics
+curl http://nsqlookupd1.wellkeeper.info:4161/channels?topic=inbound_json
+```
