@@ -1,0 +1,35 @@
+{
+   "condition" : {
+      "and" : [
+         {
+            "measurement_tag_id" : "1.8.50",
+            "operation" : ">=",
+            "threshold" : 20
+         },
+         {
+            "or" : [
+               {
+                  "measurement_tag_id" : "1.26.501",
+                  "operation" : "!=",
+                  "threshold" : "Pumping Normal State"
+               },
+               {
+                  "measurement_tag_id" : "1.28.503",
+                  "operation" : ">",
+                  "threshold" : 0.5
+               }
+            ]
+         },
+         {
+            "function" : "current_time",
+            "operation" : ">=",
+            "threshold" : "8:00"
+         },
+         {
+            "function" : "current_time",
+            "operation" : "<",
+            "threshold" : "17:00"
+         }
+      ]
+   }
+}

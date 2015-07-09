@@ -1,0 +1,49 @@
+#How to setup a Wellkeeper specific AWS instance:
+##Purpose
+This document outlines the basic checklist for setting up
+an AWS instance to be used within the wellkeeper produciton
+system at amazon.
+
+##Assumptions:
+* you have a logon to AWS management console
+* you have a basic understanding of lanuching AWS instances
+
+    ===========================================================
+    Linux Instance
+    ===========================================================
+
+    launch instance (aws)
+    choose ami, add disks, label, etc.,  (follow the bouncing ball)
+    setup record in dns (internal and external if applicable)
+    log on to instance
+        modify /etc/hostnames  (use sudo)
+            blah-blah.wellkeeper.info
+        modify /etc/hosts
+            127.0.0.1 localhost 
+            127.0.0.1 ip-10-1-110-xxx
+            127.0.0.1 blah-blah.wellkeeper.info
+
+    mount drives (if applicable)
+    reboot (from aws console)
+
+    copy supervisord.conf file from some other similar server 
+        and place in /etc directory
+
+    make a log directory for supervisord
+        sudo mkdir /var/log/supervisord
+
+    start supervisord
+        sudo supervisord
+
+    configure as needed
+
+
+    ===========================================================
+    windows instance
+    ===========================================================
+
+
+
+
+
+    
