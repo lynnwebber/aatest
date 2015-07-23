@@ -1,0 +1,98 @@
+// a test go program for the alarm triggers
+package main
+
+import (
+	"encoding/json"
+	"fmt"
+	"io/ioutil"
+	"os"
+)
+
+var cond interface{}
+
+// ------------------------------------------------
+func process_sexpr(tm map[string]interface{}) {
+
+	for k, v := range tm {
+		fmt.Printf("debug k: %s\n", k)
+		if k == ""
+		switch vv := v.(type) {
+		case string:
+			//fmt.Printf("%s --> %s --> %v \n\n", k, "string", v)
+		case float64:
+			//fmt.Printf("%s --> %s --> %v \n\n", k, "float64", v)
+		case map[string]interface{}:
+			if k == "condition" {
+				fmt.Printf("(condition ")
+				defer fmt.Printf(")")
+			}
+			process_sexpr(v.(map[string]interface{}))
+		case []interface{}:
+			if k == "and" {
+				fmt.Printf("(and ")
+				defer fmt.Printf(")")
+			}
+			if k == "or" {
+				fmt.Printf("(or ")
+				defer fmt.Printf(")")
+			}
+			for _, y := range vv {
+				//fmt.Printf("item:%d --> %v\n\n", x, y)
+				process_sexpr(y.(map[string]interface{}))
+			}
+		case bool:
+			fmt.Printf("%s --> %s --> %v \n\n", k, "bool", v)
+		case nil:
+			fmt.Printf("%s --> %s --> %v \n\n", k, "nil", v)
+		default:
+			fmt.Printf("%s --> %s --> %v \n\n", k, "unknown", v)
+		}
+	}
+}
+
+// ------------------------------------------------
+func process_simple(tm map[string]interface{}) {
+
+	for k, v := range tm {
+		fmt.Println("structure length:", len(tm))
+		switch vv := v.(type) {
+		case string:
+			fmt.Printf("%s --> %s --> %v \n\n", k, "string", v)
+		case float64:
+			fmt.Printf("%s --> %s --> %v \n\n", k, "float64", v)
+		case map[string]interface{}:
+			fmt.Printf("%s --> %s --> %v \n\n", k, "map[string]interface{}", v)
+			process_simple(v.(map[string]interface{}))
+		case []interface{}:
+			fmt.Printf("%s --> %s --> %v \n\n", k, "[]interface{}", v)
+			for x, y := range vv {
+				fmt.Printf("item:%d --> %v\n\n", x, y)
+				process_simple(y.(map[string]interface{}))
+			}
+		case bool:
+			fmt.Printf("%s --> %s --> %v \n\n", k, "bool", v)
+		case nil:
+			fmt.Printf("%s --> %s --> %v \n\n", k, "nil", v)
+		default:
+			fmt.Printf("%s --> %s --> %v \n\n", k, "unknown", v)
+		}
+	}
+}
+
+// --------------------------------------------------
+func main() {
+	fmt.Println(">>> testing json alarm_trigger decoding")
+
+	infile, err := ioutil.ReadFile("./complex.json")
+	if err != nil {
+		fmt.Println("File error:", err)
+		os.Exit(1)
+	}
+
+	json.Unmarshal(infile, &cond)
+
+	zz := cond.(map[string]interface{})
+	//process_simple(zz)
+	process_sexpr(zz)
+
+}

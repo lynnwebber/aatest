@@ -1,0 +1,10 @@
+{
+    "condition" :
+        {"expr" :
+            {
+                "measurement_tag_id" : "1.8.50",
+                "operation" : ">=",
+                "threshold" : 17
+            }
+      }
+}
