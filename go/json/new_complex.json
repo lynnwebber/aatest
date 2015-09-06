@@ -1,7 +1,7 @@
 {
     "condition" : {
         "and" : [
-            {"expr" :
+            {"single_measurement" :
                 {
                     "measurement_tag_id": "1.8.50",
                     "operation": ">=",
@@ -10,14 +10,14 @@
             },
             {"or" :
                 [
-                    {"expr" :
+                    {"single_measurement" :
                         {
                             "measurement_tag_id" : "1.26.501",
                             "operation" : "!=",
                             "threshold" : "Pumping Normal State"
                         }
                     },
-                    {"expr":
+                    {"single_measurement":
                         {
                             "measurement_tag_id" : "1.28.503",
                             "operation" : ">",
@@ -27,16 +27,14 @@
                 ]
             },
 
-            {"expr":
+            {"current_time":
                 {
-                    "function" : "current_time",
                     "operation" : ">=",
                     "threshold" : "8:00"
                 }
             },
-            {"expr":
+            {"current_time":
                 {
-                    "function" : "current_time",
                     "operation" : "<",
                     "threshold" : "17:00"
                 }

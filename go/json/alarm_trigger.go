@@ -10,23 +10,12 @@ import (
 
 var cond interface{}
 
-func expressionHandler(vv map[string]interface{}) {
-	var okflag = false
-	var funcflag = false
-	if _, ok := vv["measurement_tag_id"]; ok {
-		okflag = true
-	}
-	if _, ok := vv["function"]; ok {
-		okflag = true
-		funcflag = true
-	}
-	if okflag {
-		if !funcflag {
-			fmt.Printf("(%s (get_tag_value %s) %s)", vv["operation"], vv["measurement_tag_id"], vv["threshold"])
-		} else {
-			fmt.Printf("(%s (%s) %s)", vv["operation"], vv["function"], vv["threshold"])
-		}
-	}
+func singleMeasurementHandler(vv map[string]interface{}) {
+	fmt.Printf("(%s (get_tag_value %s) %s)", vv["operation"], vv["measurement_tag_id"], vv["threshold"])
+}
+
+func currentTimeHandler(vv map[string]interface{}) {
+	fmt.Printf("(%s (get_current_time) %s)", vv["operation"], vv["threshold"])
 }
 
 // ------------------------------------------------
@@ -38,11 +27,14 @@ func processSexpr(tm map[string]interface{}) {
 		case float64:
 			//fmt.Printf("%s --> %s --> %v \n\n", k, "float64", v)
 		case map[string]interface{}:
-			if k == "condition" {
+			switch k {
+			case "condition":
 				fmt.Printf("(condition ")
 				defer fmt.Printf(")")
-			} else {
-				expressionHandler(vv)
+			case "single_measurement":
+				singleMeasurementHandler(v.(map[string]interface{}))
+			case "current_time":
+				currentTimeHandler(v.(map[string]interface{}))
 			}
 			processSexpr(v.(map[string]interface{}))
 		case []interface{}:
@@ -71,7 +63,7 @@ func processSexpr(tm map[string]interface{}) {
 func main() {
 	fmt.Println(">>> testing json alarm_trigger decoding")
 
-	infile, err := ioutil.ReadFile("./new_simple.json")
+	infile, err := ioutil.ReadFile("./new_complex.json")
 	if err != nil {
 		fmt.Println("File error:", err)
 		os.Exit(1)
