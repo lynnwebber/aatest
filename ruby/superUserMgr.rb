@@ -7,7 +7,9 @@ require 'pg'
 
 # ------------- general use functions
 def make_password_hash(inpasswd)
-    a_password = BCrypt::Password.create("inpasswd")
+    a_password = BCrypt::Password.create(inpasswd)
+    printf "Hashes to desired password? -> %s\n", a_password == inpasswd
+    return a_password
 end
 
 # ------------ class for db management
