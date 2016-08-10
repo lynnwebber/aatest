@@ -16,12 +16,12 @@ xtest = fn
     n -> fb.(rem(n,3),rem(n,5),n)
 end
 
-IO.puts xtest.(10)
-IO.puts xtest.(11)
-IO.puts xtest.(12)
-IO.puts xtest.(13)
+ytest = &(fb.(rem(&1,3),rem(&1,5),&1))
+
+IO.puts ytest.(10)
+IO.puts ytest.(12)
 IO.puts xtest.(14)
 IO.puts xtest.(15)
-IO.puts xtest.(16)
 IO.puts xtest.(17)
 
+IO.puts Enum.each [1,2,3,4], &(IO.inspect(&1))
