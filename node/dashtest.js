@@ -34,18 +34,6 @@ var sample_data =  { headers: ['process', 'status'], data:
 table1.setData(sample_data)
 table2.setData(sample_data)
 
- // table1.setData(
- // { headers: ['process', 'status']
- // , data:
- //    [ ['getSomething', 'RUNNING']
- //    , ['RWSomething', 'RUNNING']
- //    , ['RWSomething', 'RUNNING']
- //    , ['RWSomething', 'RUNNING']
- //    , ['RWSomething', 'RUNNING']
- //    , ['RWSomething', 'RUNNING']
- //    , ['doSomething', 'STOPPED'] ]})
-
-
 
 
 
