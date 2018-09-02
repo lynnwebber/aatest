@@ -68,6 +68,7 @@ def generate_kepware_load(args):
         writer = csv.DictWriter(csvout,fieldnames=cfg.kepware_load_header)
         writer.writeheader()
         for rec in recs:
+            print('debugging: ',rec)
             csvdict = {'Tag Name' : rec['Tag_Name'],
                     'Address' : rec['SCADA_Address'],
                     'Data Type' : rec['SCADA_Data_Type'],
