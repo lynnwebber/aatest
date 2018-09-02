@@ -1,0 +1,76 @@
+{
+    "_meta": {
+        "hash": {
+            "sha256": "b7a38c436b0b1ecfaf7446176a11b54cad548da0f67f2ec111162cb0556ee5e6"
+        },
+        "pipfile-spec": 6,
+        "requires": {
+            "python_version": "2.7"
+        },
+        "sources": [
+            {
+                "name": "pypi",
+                "url": "https://pypi.org/simple",
+                "verify_ssl": true
+            }
+        ]
+    },
+    "default": {
+        "et-xmlfile": {
+            "hashes": [
+                "sha256:614d9722d572f6246302c4491846d2c393c199cfa4edc9af593437691683335b"
+            ],
+            "version": "==1.0.1"
+        },
+        "jdcal": {
+            "hashes": [
+                "sha256:948fb8d079e63b4be7a69dd5f0cd618a0a57e80753de8248fd786a8a20658a07",
+                "sha256:ea0a5067c5f0f50ad4c7bdc80abad3d976604f6fb026b0b3a17a9d84bb9046c9"
+            ],
+            "version": "==1.4"
+        },
+        "lml": {
+            "hashes": [
+                "sha256:12783c8851bb1b1aacf6d139aa41fb529e1723bff863e71034af07a55bf1e5a3",
+                "sha256:58a11170ecb0ce5e4680ad8971f1e353b795d58953217d65c9a56e0d774261d6"
+            ],
+            "version": "==0.0.1"
+        },
+        "openpyxl": {
+            "hashes": [
+                "sha256:04091e034911a0afc531c3a15e5ae0b1b6a43654dbf63c187f47d20cdfefac1c"
+            ],
+            "version": "==2.5.6"
+        },
+        "pyexcel": {
+            "hashes": [
+                "sha256:33241a56053340925ba4c01edad4041cecf65b557d36edffd31daa2fc379c568",
+                "sha256:44b336c7db7edd1265745d97a82a2f2e6ec70e0d89b4c4e4a9010d5d9feab192"
+            ],
+            "index": "pypi",
+            "version": "==0.5.9"
+        },
+        "pyexcel-io": {
+            "hashes": [
+                "sha256:c640dd04aa5f54765a4ce66bef31b8a6305a537840a6ddcd7bd45bc0ce42b19b",
+                "sha256:ca36373829c573ffcc164912fae26b62cf14aa50b199703dbb0c4c14b0918a60"
+            ],
+            "version": "==0.5.9"
+        },
+        "pyexcel-xlsx": {
+            "hashes": [
+                "sha256:4b406c0ec64c577a171335ab3bca8acd3bc845b5c99691c3600d11c284091435",
+                "sha256:4e1f953427ac5073ee7e42d30e7108f24fde475e58e24822033fdc90a6131291"
+            ],
+            "index": "pypi",
+            "version": "==0.5.6"
+        },
+        "texttable": {
+            "hashes": [
+                "sha256:95e8cfe85f8395a7eacdfbc8f09d885b9ef3a6ac6ead0364ea721de1127aa36b"
+            ],
+            "version": "==1.4.0"
+        }
+    },
+    "develop": {}
+}
