@@ -3,8 +3,8 @@
 import sys
 import argparse
 import csv
-import excel_functions as xf
-import config as cfg
+import xlTags as xt
+import kepware as kep
 
 # -------------------------------------------------------------
 #   command line parsing
@@ -17,30 +17,30 @@ def process_commandline():
     p = argparse.ArgumentParser(description=desc)
 
     # setup options
-    p.add_argument('--action',dest="action", 
+    p.add_argument('--action',dest="action",
             action="store",
             choices=['GenKepLoad'],
             required=True,
             help="desired action for the script to process")
-    
+
     p.add_argument('-s','--spreadsheet',
             dest="spreadsheet",
             action="store",
             help="input spreadsheet file")
-    
+
     p.add_argument('-o','--output',
             dest="outfile",
             action="store",
             help="output file for the action chosen")
-    
+
     #p.add_argument('-x','--xml',
     #        dest="xmlfile",
     #        action="store",
     #        help="XML file to be processed")
-    
+
     p.add_argument('-v','--verbose',
-            dest="verbose", 
-            action="store_true", 
+            dest="verbose",
+            action="store_true",
             default=False,
             help="script will display detailed run messages")
     # parse
@@ -51,21 +51,21 @@ def process_commandline():
             p.error("No input spreadsheet specified - required for this action")
         if rv.outfile == None:
             p.error("No output file name specified - required for this action")
-    
+
     return rv
- 
+
 # -------------------------------------------------------------
 def generate_kepware_load(args):
     """
-    generate a kepware load CSV file using the data that was provided in 
+    generate a kepware load CSV file using the data that was provided in
     the spreadsheet
     """
-    err, recs = xf.load_and_correct_spreadsheet(args)
+    err, recs = xt.load_and_correct_tags(args)
     if err:
         sys.exit(0)
 
     with open(args.outfile,'w') as csvout:
-        writer = csv.DictWriter(csvout,fieldnames=cfg.kepware_load_header)
+        writer = csv.DictWriter(csvout,fieldnames=kep.config.kepware_load_header)
         writer.writeheader()
         for rec in recs:
             print('debugging: ',rec)
@@ -92,14 +92,14 @@ def generate_kepware_load(args):
 # -------------------------------------------------------------
 def main():
     args = process_commandline()
-   
+
     err = False
     if args.action == "GenKepLoad":
         err = generate_kepware_load(args)
 
     if err:
         print("An error was detected in the run - please review messages")
-    
+
 
 # -------------------------------------------------------------
 if __name__ == "__main__":

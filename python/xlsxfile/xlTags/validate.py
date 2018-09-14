@@ -4,6 +4,11 @@ import argparse
 import pyexcel as px
 import config as cfg
 
+
+# -------------------------------------------------------------
+#      functions for tag processing
+# -------------------------------------------------------------
+
 # -------------------------------------------------------------
 def extract_fields_to_dict(rec):
     """
@@ -94,7 +99,7 @@ def check_rec_true_text(rec):
     dtype = rec['SCADA_Data_Type'].lower()
     if dtype != 'boolean':
         return "NA"
-    
+
     txt = rec['True_Text']
     if txt == '':
         return 'True'
@@ -112,7 +117,7 @@ def check_rec_false_text(rec):
     dtype = rec['SCADA_Data_Type'].lower()
     if dtype != 'boolean':
         return "NA"
-    
+
     txt = rec['False_Text']
     if txt == '':
         return 'False'
@@ -133,16 +138,16 @@ def reformat_scada_address(rec):
         return '0'+str(val)
 
 # -------------------------------------------------------------
-def load_and_correct_spreadsheet(args):
+def load_and_correct_tags(args):
     """ 
-    Loads a wellkeeper formatted spreadsheet file and fills in the infered
+    Loads a wellkeeper formatted tags sheed from a workbook and fills in the infered
     data that is not entered, validates the fields that are entered against the 
     proper values and then places them in a list of dictionaries to return
     """
     sheetrecs = []
     err = False
     warning = False
-    recs = px.iget_records(file_name=args.spreadsheet,name_columns_by_row=0)
+    recs = px.iget_records(file_name=args.spreadsheet,sheet_name='Tags',name_columns_by_row=0)
     for rec in recs:
         if rec['Tag_Name'] != '':
             sheetrecs.append(extract_fields_to_dict(rec))
@@ -154,24 +159,24 @@ def load_and_correct_spreadsheet(args):
         if err:
             print("Missing required fields in provided spreadsheet - (see error message above) - exiting")
             break
-        
+
         # check the scada_data_type for one of the valid values
         err,val = check_rec_scada_data_type(rec)
         if err:
             print("Invalid value in SCADA Data Type - (see error message above) - exiting")
         rec['SCADA_Data_Type'] = val
-        
+
         # make the adjustments for boolean types
         if rec['SCADA_Data_Type'] == 'Boolean':
             rec['Measurement_Type'] = 'Binary'
-        
+
         # check client access for the two valid types or make it RO
         rec['Client_Access'] = check_rec_client_access(rec)
-        
+
         # Check the measurement type against the list and upper case it
         warning,val = check_rec_measurement_type(rec)
         rec['Measurement_Type'] = val
-        
+
         # check the true and false texts and update the defualt values if blank
         rec['True_Text'] = check_rec_true_text(rec)
         rec['False_Text'] = check_rec_false_text(rec)
