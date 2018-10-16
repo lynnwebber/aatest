@@ -1,12 +1,11 @@
 #!/usr/bin/env python
 
 import config
+import loadfile
 
 from config import *
+from loadfile import *
 
 # -----------------------------------------
-def main():
-    print("kep init file")
-
-# -----------------------------------------
-if __name__== "__main__": main()
+if __name__== "__main__":
+    print("kepware directory init file")

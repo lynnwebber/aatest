@@ -1,0 +1,133 @@
+<?xml version="1.0" ?>
+<RTU_update>
+  <RTU_channel>
+    <identification rtuid="Adventure_Teichman_10" version="01.00">
+      <pub_sub/>
+    </identification>
+    <params>
+      <polling interval="5" server="kepserver1.wellkeeper.info"/>
+    </params>
+    <rtu panel="none" vendor="">
+      <telco IpV4addr="148.78.229.139" IpV6addr=" " number=" " vendor=" "/>
+    </rtu>
+    <devices>
+      <meter comm="148.78.229.139" id="IDEC" vendor="unknown">
+        <msmt id="Flow_Meter_Grand_Total" intercept="0.0" name="Flow Meter  Grand Total" slope="1.0" type="FLOW_RATE" units="BBL">
+          <descriptor baseReg="40004" datatype="VT_R4"/>
+        </msmt>
+        <msmt id="Flow_Meter_Daily_Total" intercept="0.0" name="Flow Meter  Daily Total" slope="1.0" type="FLOW_RATE" units="BBL">
+          <descriptor baseReg="40006" datatype="VT_R4"/>
+        </msmt>
+        <msmt id="Water_Tank_1" intercept="0.0" name="Water Tank 1" slope="1.0" type="TANK_LEVEL" units="ft">
+          <descriptor baseReg="40104" datatype="VT_R4"/>
+        </msmt>
+        <msmt id="Water_Tank_2" intercept="0.0" name="Water Tank 2" slope="1.0" type="TANK_LEVEL" units="ft">
+          <descriptor baseReg="40106" datatype="VT_R4"/>
+        </msmt>
+        <msmt id="Oil_Tank_1" intercept="0.0" name="Oil Tank 1" slope="1.0" type="TANK_LEVEL" units="ft">
+          <descriptor baseReg="40108" datatype="VT_R4"/>
+        </msmt>
+        <msmt id="Oil_Tank_2" intercept="0.0" name="Oil Tank 2" slope="1.0" type="TANK_LEVEL" units="ft">
+          <descriptor baseReg="40110" datatype="VT_R4"/>
+        </msmt>
+        <msmt id="Oil_Tank_3" intercept="0.0" name="Oil Tank 3" slope="1.0" type="TANK_LEVEL" units="ft">
+          <descriptor baseReg="40112" datatype="VT_R4"/>
+        </msmt>
+        <msmt id="Oil_Tank_4" intercept="0.0" name="Oil Tank 4" slope="1.0" type="TANK_LEVEL" units="ft">
+          <descriptor baseReg="40114" datatype="VT_R4"/>
+        </msmt>
+        <msmt id="Pump_Discharge_Pressure_" intercept="0.0" name="Pump Discharge Pressure " slope="1.0" type="PIPE_PSIG" units="psi">
+          <descriptor baseReg="40116" datatype="VT_R4"/>
+        </msmt>
+        <msmt id="Tubing_Pressure" intercept="0.0" name="Tubing Pressure" slope="1.0" type="PIPE_PSIG" units="psi">
+          <descriptor baseReg="40024" datatype="VT_R4"/>
+        </msmt>
+        <msmt id="Casing_Pressure" intercept="0.0" name="Casing Pressure" slope="1.0" type="PIPE_PSIG" units="psi">
+          <descriptor baseReg="40026" datatype="VT_R4"/>
+        </msmt>
+        <msmt id="FWKO_Pressure" intercept="0.0" name="FWKO Pressure" slope="1.0" type="PIPE_PSIG" units="psi">
+          <descriptor baseReg="40028" datatype="VT_R4"/>
+        </msmt>
+        <msmt id="Heater_Treater_Pressure" intercept="0.0" name="Heater Treater Pressure" slope="1.0" type="PIPE_PSIG" units="psi">
+          <descriptor baseReg="40030" datatype="VT_R4"/>
+        </msmt>
+        <msmt id="Seperator_Pressure" intercept="0.0" name="Seperator Pressure" slope="1.0" type="PIPE_PSIG" units="psi">
+          <descriptor baseReg="40032" datatype="VT_R4"/>
+        </msmt>
+        <msmt false_text="OK" id="Power_Fail" intercept="0.0" inverted_logic="unknown" name="Power Fail" slope="1.0" true_text="Alarm" type="binary">
+          <descriptor baseReg="01025" datatype="VT_BOOL" type="BINARY"/>
+        </msmt>
+        <msmt false_text="Stopped" id="Pump_Srun_Status" intercept="0.0" inverted_logic="unknown" name="Pump Srun Status" slope="1.0" true_text="Running" type="binary">
+          <descriptor baseReg="01028" datatype="VT_BOOL" type="BINARY"/>
+        </msmt>
+        <msmt false_text="OK" id="Pump_Hi_Pressure_Shutdown" intercept="0.0" inverted_logic="unknown" name="Pump Hi Pressure Shutdown" slope="1.0" true_text="Alarm" type="binary">
+          <descriptor baseReg="01087" datatype="VT_BOOL" type="BINARY"/>
+        </msmt>
+      </meter>
+    </devices>
+  </RTU_channel>
+  <rtu_equipment_specification rtuid="Adventure_Teichman_10" version="01.00">
+    <equipment>
+      <generic desc="Wellhead" id="??eq_id_1??" latitude="31.4089" longitude="101.7606" op="1007">
+        <m_tag>Adventure_Teichman_10.IDEC.Tubing_Pressure</m_tag>
+        <m_tag>Adventure_Teichman_10.IDEC.Casing_Pressure</m_tag>
+      </generic>
+      <flow_meter desc="MC III" id="??eq_id_2??" latitude="31.4089" longitude="101.7606" op="1007">
+        <m_tag>Adventure_Teichman_10.IDEC.Flow_Meter_Grand_Total</m_tag>
+        <m_tag>Adventure_Teichman_10.IDEC.Flow_Meter_Daily_Total</m_tag>
+      </flow_meter>
+      <generic desc="FWKO" id="??eq_id_3??" latitude="31.4089" longitude="101.7606" op="1007">
+        <m_tag>Adventure_Teichman_10.IDEC.FWKO_Pressure</m_tag>
+      </generic>
+      <generic desc="Site Status" id="??eq_id_4??" latitude="31.4089" longitude="101.7606" op="1007">
+        <m_tag>Adventure_Teichman_10.IDEC.Power_Fail</m_tag>
+        <m_tag>Adventure_Teichman_10.IDEC.Pump_Srun_Status</m_tag>
+        <m_tag>Adventure_Teichman_10.IDEC.Pump_Hi_Pressure_Shutdown</m_tag>
+      </generic>
+      <tank desc="WT 1" id="??eq_id_5??" latitude="31.4089" longitude="101.7606" op="1007">
+        <m_tag>Adventure_Teichman_10.IDEC.Water_Tank_1</m_tag>
+      </tank>
+      <tank desc="WT 2" id="??eq_id_6??" latitude="31.4089" longitude="101.7606" op="1007">
+        <m_tag>Adventure_Teichman_10.IDEC.Water_Tank_2</m_tag>
+      </tank>
+      <generic desc="Heater Treater" id="??eq_id_7??" latitude="31.4089" longitude="101.7606" op="1007">
+        <m_tag>Adventure_Teichman_10.IDEC.Heater_Treater_Pressure</m_tag>
+      </generic>
+      <tank desc="OT 4" id="??eq_id_8??" latitude="31.4089" longitude="101.7606" op="1007">
+        <m_tag>Adventure_Teichman_10.IDEC.Oil_Tank_4</m_tag>
+      </tank>
+      <tank desc="OT 1" id="??eq_id_9??" latitude="31.4089" longitude="101.7606" op="1007">
+        <m_tag>Adventure_Teichman_10.IDEC.Oil_Tank_1</m_tag>
+      </tank>
+      <generic desc="Seperator" id="??eq_id_10??" latitude="31.4089" longitude="101.7606" op="1007">
+        <m_tag>Adventure_Teichman_10.IDEC.Seperator_Pressure</m_tag>
+      </generic>
+      <tank desc="OT 3" id="??eq_id_11??" latitude="31.4089" longitude="101.7606" op="1007">
+        <m_tag>Adventure_Teichman_10.IDEC.Oil_Tank_3</m_tag>
+      </tank>
+      <tank desc="OT 2" id="??eq_id_12??" latitude="31.4089" longitude="101.7606" op="1007">
+        <m_tag>Adventure_Teichman_10.IDEC.Oil_Tank_2</m_tag>
+      </tank>
+      <generic desc="Transfer Pump" id="??eq_id_13??" latitude="31.4089" longitude="101.7606" op="1007">
+        <m_tag>Adventure_Teichman_10.IDEC.Pump_Discharge_Pressure_</m_tag>
+      </generic>
+    </equipment>
+  </rtu_equipment_specification>
+  <rtu_grouping_specification rtuid="Adventure_Teichman_10" version="01.00">
+    <grouping desc="Teichman_10" id="????" op="1007" type="rtu">
+      <equipment>??eq_id_1??</equipment>
+      <equipment>??eq_id_2??</equipment>
+      <equipment>??eq_id_3??</equipment>
+      <equipment>??eq_id_4??</equipment>
+      <equipment>??eq_id_5??</equipment>
+      <equipment>??eq_id_6??</equipment>
+      <equipment>??eq_id_7??</equipment>
+      <equipment>??eq_id_8??</equipment>
+      <equipment>??eq_id_9??</equipment>
+      <equipment>??eq_id_10??</equipment>
+      <equipment>??eq_id_11??</equipment>
+      <equipment>??eq_id_12??</equipment>
+      <equipment>??eq_id_13??</equipment>
+    </grouping>
+  </rtu_grouping_specification>
+</RTU_update>

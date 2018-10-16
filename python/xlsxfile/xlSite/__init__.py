@@ -1,16 +1,10 @@
 
 #!/usr/bin/env python
 #
-import config as cfg
-import validate
+import siteload
 
-from cfg import *
-from validate import *
-
-# --------------------------------
-def main():
-    print("init file for xlTags directory")
+from siteload import *
 
 # --------------------------------
 if __name__=="__main__":
-    main()
+    print("init file for xlSite directory")

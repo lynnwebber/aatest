@@ -1,11 +1,12 @@
+
 #!/usr/bin/env python
 #
-import config 
-import tagload
+import config
+import rtufile
 
 from config import *
-from tagload import *
+from rtufile import *
 
 # --------------------------------
 if __name__=="__main__":
-    print("init file for xlTags directory")
+    print("init file for v3xml directory")

@@ -1,6 +1,7 @@
 #
 import sys
 import argparse
+import re
 import pyexcel as px
 import config as cfg
 
@@ -49,6 +50,16 @@ def check_rec_for_rqrd_fields(rec):
     return error_flag
 
 # -------------------------------------------------------------
+def check_rec_tag_name(rec):
+    """
+    checks the tag name to ensure it doesnt have spaces
+    """
+    err = False
+    old = rec['Tag_Name']
+    new = re.sub('\s+', '_', old)
+    return (err,new)
+
+# -------------------------------------------------------------
 def check_rec_scada_data_type(rec):
     """
     checks the SCADA_Data_Type to ensure it is one of data types that kepware
@@ -67,11 +78,14 @@ def check_rec_client_access(rec):
     checks the client access field and corrects as necessary and returns proper
     value for the field
     """
-    ca = rec['Client_Access']
+    ca = rec['Client_Access'].upper()
+    mt = rec['Measurement_Type'].upper()
+    if mt == 'SETPOINT' or mt == 'ACTUATOR':
+        return 'RW'
     if ca == '':
         return 'RO'
-    if ca.upper() in cfg.valid_client_access:
-        return ca.upper()
+    if ca in cfg.valid_client_access:
+        return ca
     else:
         return 'RO'
 
@@ -85,7 +99,7 @@ def check_rec_measurement_type(rec):
     wktyp = rec['Measurement_Type'].upper()
     if wktyp not in cfg.valid_types:
         warning = True
-        print("Warning - measurement type provided not in the list of valid types for tag %s" % (rec['Tag_name']))
+        print("Warning - Measurement_Type %s not a valid type for tag -  %s" % (wktyp,rec['Tag_Name']))
     return (warning,wktyp)
 
 # -------------------------------------------------------------
@@ -140,13 +154,13 @@ def reformat_scada_address(rec):
 # -------------------------------------------------------------
 def load_and_correct_tags(args):
     """ 
-    Loads a wellkeeper formatted tags sheed from a workbook and fills in the infered
+    Loads a wellkeeper formatted tags sheet from a workbook and fills in the infered
     data that is not entered, validates the fields that are entered against the 
     proper values and then places them in a list of dictionaries to return
     """
     sheetrecs = []
     err = False
-    warning = False
+    err_count = 0
     recs = px.iget_records(file_name=args.spreadsheet,sheet_name='Tags',name_columns_by_row=0)
     for rec in recs:
         if rec['Tag_Name'] != '':
@@ -157,24 +171,33 @@ def load_and_correct_tags(args):
         # check to see if all of the fields needed are there
         err = check_rec_for_rqrd_fields(rec)
         if err:
+            err_count = err_count + 1
             print("Missing required fields in provided spreadsheet - (see error message above) - exiting")
             break
+
+        # check the tag name and replace spaces
+        err,val = check_rec_tag_name(rec)
+        if err:
+            err_count = err_count + 1
+        rec['Tag_Name'] = val
 
         # check the scada_data_type for one of the valid values
         err,val = check_rec_scada_data_type(rec)
         if err:
-            print("Invalid value in SCADA Data Type - (see error message above) - exiting")
+            err_count = err_count + 1
         rec['SCADA_Data_Type'] = val
 
         # make the adjustments for boolean types
         if rec['SCADA_Data_Type'] == 'Boolean':
-            rec['Measurement_Type'] = 'Binary'
+            rec['Measurement_Type'] = 'Binary' 
 
         # check client access for the two valid types or make it RO
         rec['Client_Access'] = check_rec_client_access(rec)
 
         # Check the measurement type against the list and upper case it
-        warning,val = check_rec_measurement_type(rec)
+        err,val = check_rec_measurement_type(rec)
+        if err:
+            err_count = err_count + 1
         rec['Measurement_Type'] = val
 
         # check the true and false texts and update the defualt values if blank
@@ -184,7 +207,11 @@ def load_and_correct_tags(args):
         # Perform Format correction on SCADA Addresses
         rec['SCADA_Address'] = reformat_scada_address(rec)
 
-    return (err,sheetrecs)
+    if err_count > 0:
+        raise ValueError("Errors detected loading tags - please review messages ")
+        return []
+    else:
+        return sheetrecs
 
 
 # -------------------------------------------------------------
