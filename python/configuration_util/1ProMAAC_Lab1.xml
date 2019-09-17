@@ -1,0 +1,64 @@
+<?xml version="1.0" ?>
+<RTU_update>
+  <RTU_channel>
+    <identification rtuid="1ProMAAC_Lab1" version="01.00">
+      <pub_sub/>
+    </identification>
+    <params>
+      <polling interval="5" server="kepserver1.wellkeeper.info"/>
+    </params>
+    <rtu panel="none" vendor="">
+      <telco IpV4addr="166.153.183.84" IpV6addr=" " number=" " vendor=" "/>
+    </rtu>
+    <devices>
+      <meter comm="166.153.183.84.25" id="MC3" vendor="unknown">
+        <msmt id="Water_Flow_Rate" intercept="0.0" name="Water Flow Rate" slope="1.0" type="FLOW_RATE" units="bbld">
+          <descriptor baseReg="48013" datatype="VT_R4"/>
+        </msmt>
+        <msmt id="Water_Cumulative_Total" intercept="0.0" name="Water Cumulative Total" slope="1.0" type="VOLUME" units="bbl">
+          <descriptor baseReg="48011" datatype="VT_R4"/>
+        </msmt>
+        <msmt id="Yesterday_Total" intercept="0.0" name="Yesterday Total" slope="1.0" type="VOLUME" units="bbl">
+          <descriptor baseReg="48027" datatype="VT_R4"/>
+        </msmt>
+        <msmt id="Daily_Total" intercept="0.0" name="Today Total" slope="1.0" type="VOLUME" units="bbl">
+          <descriptor baseReg="48015" datatype="VT_R4"/>
+        </msmt>
+      </meter>
+      <meter comm="166.153.183.84.3" id="RDS" vendor="unknown">
+        <msmt id="RDS_downhole_status" intercept="0.0" name="RDS Downhole Status" slope="1.0" type="CONTROLLER_STATE" units="stat_code">
+          <descriptor baseReg="41102" datatype="VT_I2"/>
+        </msmt>
+        <msmt id="RDS_downhole_shutdown" intercept="0.0" name="RDS Downhole Shutdown" slope="1.0" type="CONTROLLER_STATE" units="stat_code">
+          <descriptor baseReg="41104" datatype="VT_I2"/>
+        </msmt>
+      </meter>
+      <meter comm="166.153.183.84.2" id="Yoki" vendor="unknown">
+        <msmt id="Yokogawa_Pressure" intercept="0.0" name="Treater pressure" slope="1.0" type="PIPE_PSIG" units="psig">
+          <descriptor baseReg="44006" datatype="VT_R4"/>
+        </msmt>
+      </meter>
+    </devices>
+  </RTU_channel>
+  <rtu_equipment_specification rtuid="1ProMAAC_Lab1" version="01.00">
+    <equipment>
+      <generic desc="Heater Treater" id="83515" latitude="39.235729" longitude="104.683065" op="9">
+        <m_tag>1ProMAAC_Lab1.MC3.Water_Flow_Rate</m_tag>
+        <m_tag>1ProMAAC_Lab1.MC3.Water_Cumulative_Total</m_tag>
+        <m_tag>1ProMAAC_Lab1.MC3.Yesterday_Total</m_tag>
+        <m_tag>1ProMAAC_Lab1.MC3.Daily_Total</m_tag>
+        <m_tag>1ProMAAC_Lab1.Yoki.Yokogawa_Pressure</m_tag>
+      </generic>
+      <generic desc="Downhole Information" id="83516" latitude="39.235729" longitude="104.683065" op="9">
+        <m_tag>1ProMAAC_Lab1.RDS.RDS_downhole_status</m_tag>
+        <m_tag>1ProMAAC_Lab1.RDS.RDS_downhole_shutdown</m_tag>
+      </generic>
+    </equipment>
+  </rtu_equipment_specification>
+  <rtu_grouping_specification rtuid="1ProMAAC_Lab1" version="01.00">
+    <grouping desc="1ProMAAC_Lab1" id="11643" op="9" type="rtu">
+      <equipment>83515</equipment>
+      <equipment>83516</equipment>
+    </grouping>
+  </rtu_grouping_specification>
+</RTU_update>

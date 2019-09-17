@@ -13,9 +13,6 @@ def test_func(td):
 
 
 
-
-
-
 if __name__ == "__main__":
 
     a = '20031002045533'
