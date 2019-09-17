@@ -1,0 +1,11 @@
+Tag Name,Address,Data Type,Respect Data Type,Client Access,Scan Rate,Scaling,Raw Low,Raw High,Scaled Low,Scaled High,Scaled Data Type,Clamp Low,Clamp High,Eng Units,Description,Negate Value
+Pressure_1,40201,Float,1,RO,100,,,,,,,,,,Tubing Pressure,
+Pressure_2,40203,Float,1,RO,100,,,,,,,,,,Casing Pressure,
+Tank_1_Top_Level,40257,Float,1,RO,100,,,,,,,,,,Water Tank 1,
+Tank_2_Top_Level,40259,Float,1,RO,100,,,,,,,,,,Water Tank 2,
+Tank_3_Top_Level,40261,Float,1,RO,100,,,,,,,,,,Oil Tank 1,
+Tank_4_Top_Level,40263,Float,1,RO,100,,,,,,,,,,Oil Tank 2,
+Tank_5_Top_Level,40265,Float,1,RO,100,,,,,,,,,,Oil Tank 3,
+Tank_6_Top_Level,40267,Float,1,RO,100,,,,,,,,,,Oil Tank 4,
+Tank_7_Top_Level,40269,Float,1,RO,100,,,,,,,,,,Oil Tank 5,
+Tank_8_Top_Level,40271,Float,1,RO,100,,,,,,,,,,Oil Tank 6,
