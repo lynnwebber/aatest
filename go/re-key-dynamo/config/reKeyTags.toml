@@ -1,0 +1,15 @@
+# configuration file for publishEstimations.go
+[testing]
+Endpoint = "http://localhost:8000"
+TableName = "readings"
+Limit = 5
+
+[production]
+Endpoint = "arn:aws:dynamodb:us-west-2:502713590428:table/readings"
+TableName = "readings" 
+Limit = 4032 
+
+[staging]
+Endpoint = "arn:aws:dynamodb:us-west-2:502713590428:table/readings"
+TableName = "readings"
+Limit = 4032 
