@@ -1,0 +1,161 @@
+﻿ podid , operatorid ,               description               , config_id , active ,      muid       , provider 
+482,93, 13-9 Parks WTS                          ,8741, t      ,5053897185, verizon
+1426,93, A B Harrington                          ,8453, t      ,5057962982, ATT 
+1506,93, Amacker #46                             ,8807, t      ,5052205825, ATT
+1870,93, Amacker #46 Flow Back Pit               ,8807, t      ,5052205825, ATT
+1325,93, American Republic A #40                 ,8910, t      ,5053795492, verizon
+1324,93, American Republic A # 8                 ,8753, t      ,5053773722, ATT
+1391,93, Arch Benge                              ,8104, t      ,5053661283, ATT
+528,93, Benjamin                                ,8892, t      ,5052499282, ATT
+582,93, Benjamin A-B                            ,8892, t      ,5052499282, ATT
+1874,93, Benjamin Flow Back Pit                  ,8892, t      ,5052499282, ATT
+550,93, Benjamin TF N. Test 2                   ,8893, t      ,5052390393, ATT
+551,93, Benjamin TF N. Test 3                   ,8893, t      ,5052390393, ATT
+552,93, Benjamin TF S.Test 1                    ,8893, t      ,5052390393, ATT
+553,93, Benjamin TF S. Test 2                   ,8893, t      ,5052390393, ATT
+584,93, Benjamin Water System                   ,8893, t      ,5052390393, ATT
+1347,93, Big Chief 148-1 Battery                 ,8499, t      ,5059675107, verizon
+2280,93, Big Chief 34 - 35 Battery               ,5627, t      ,5056810860, ATT
+2519,93, Big Chief 46                            ,6661, t      ,5053217729, ATT
+2618,93, Big Chief 73                            ,7337, t      ,5052805360, verizon
+1851,93, Big Chief 75                            ,6645, t      ,5059678008, verizon
+2040,93, Big Chief 76                            ,8549, t      ,5053628634, ATT
+1881,93, Billie Battery                          ,9659, t      ,5053599536, ATT
+1662,93, Blackwell Water Transfer Station        ,7601, t      ,5052690179, verizon
+1882,93, C B Haley A #5                          ,8741, t      ,5053897185, verizon
+1809,93, Chevron 43 Flow Back Pit                ,8801, t      ,5052386682, ATT
+2616,93, Cimmaron #3602                          ,7326, t      ,5053792756, ATT
+481,93, Cindy Kay                               ,8750, t      ,5053667967, ATT
+604,93, Cowden                                  ,8754, t      ,5053794362, ATT
+1896,93, Cowden Wedge Meter                      ,9697, t      ,5059678700, verizon
+2400,93, Currie #26 Battery                      ,6053, t      ,5053792713, ATT
+2181,93, Currie #27                              ,9852, t      ,5055540090, ATT
+1655,93, Currie #2707 Booster Station            ,9852, t      ,5055540090, ATT
+2186,93, Currie #30                              ,6609, t      ,5053507495, ATT
+1614,93, Currie #34 Battery                      ,9852, t      ,5055540090, ATT
+1338,93, Currie #35 Battery                      ,8774, t      ,5053734232, ATT
+1916,93, Currie #36 Battery                      ,8188, t      ,5053820426, ATT
+2185,93, Currie #37                              ,9630, t      ,9152383543, ATT
+2184,93, Currie #43 Battery                      ,9844, t      ,4322324378, ATT
+2183,93, Currie #6                               ,9748, t      ,5052063588, ATT
+1709,93, Currie A-4 Battery                      ,3792, t      ,5055062453, ATT
+1568,93, Currie A North #40 Battery              ,2753, t      ,5053589418, ATT
+1339,93, Currie E-31 Battery                     ,9844, t      ,4322324378, ATT
+1947,93, Currie E-32 North                       ,9728, t      ,5052706698, ATT
+1654,93, Currie E-38 Battery                     ,8192, t      ,5056972658, ATT
+1567,93, Currie E-42 Battery                     ,9844, t      ,4322324378, ATT
+1441,93, Currie E-44 Battery                     ,6010, t      ,5053585242, ATT
+2646,93, Currie E-5                              ,8107, t      ,5056972562, ATT
+1816,93, Dawn / Meredith Battery                 ,8746, t      ,5052740132, ATT
+1871,93, Dorothy 1H Flow Back Pit                ,8746, t      ,5052740132, ATT
+1220,93, Dubya #12 Battery                       ,9715, t      ,5052691382, ATT
+1547,93, Field Inlet South                       ,9652, t      ,5059480061, ATT
+1569,93, Glass #8 Battery                        ,8962, t      ,5054010668, ATT
+1890,93, Glenna Battery                          ,4453, t      ,5059484378, ATT
+2548,93, Gunnison State                          ,8665, t      ,5052887227, verizon
+546,93, Halff Section 59                        ,8757, t      ,5054150526, ATT
+1780,93, Hannah SWD                              ,9212, t      ,5052701157, ATT
+2571,93, Hoefs Ranch 1-26                        ,7236, t      ,5052217250, ATT
+2561,93, Hoefs Ranch 1-66                        ,8387, t      ,5052218310, ATT
+2572,93, Hoefs Ranch 1-96                        ,7071, t      ,5054497122, ATT
+2491,93, Ignacio                                 ,9581, t      ,5052219703, ATT
+1160,93, Janet #1                                ,8903, t      ,5052182866, ATT
+2573,93, John H 95                               ,8608, t      ,5054019277, verizon
+2554,93, Kristen T 65                            ,8610, t      ,5052887240, verizon
+2657,93, Larimer State Unit                      ,9451, t      ,5053824750, ATT
+1630,93, Lion State 2208-H                       ,9194, t      ,5052524438, verizon
+2579,93, McCoy Remme 99 #1                       ,7141, t      ,5052218398, ATT
+2578,93, McCoy Remme 99 #102                     ,7140, t      ,5052887504, ATT
+1873,93, McGill Flow Back Pit                    ,3952, t      ,5054147661, ATT
+1632,93, Midkiff 3D SWD                          ,8785, t      ,5052499563, ATT
+1880,93, Miranda Battery                         ,9658, t      ,4325574409, ATT
+1852,93, Monarch 38 01H                          ,6418, t      ,5055060643, ATT
+1418,93, MV Benge 26-1                           ,8740, t      ,5052633617, ATT
+2469,93, MV Benge 26-1 Oil                       ,9729, t      ,5053624302, verizon
+1584,93, Neal Ranch #42 A                        ,8801, t      ,5052386682, ATT
+1806,93, Neal Ranch #96 Flow Back Pit            ,9652, t      ,5059480061, ATT
+1804,93, Neal Ranch #97 Flow Back Pit            ,9652, t      ,5059480061, ATT
+925,93, Neal Ranch SWD                          ,9652, t      ,5059480061, ATT
+1470,93, Neal Ranch SWD H-Pumps                  ,9652, t      ,5059480061, ATT
+802,93, Not in Use Johnnie Mae SWD              ,2489, t      ,5053144668, ATT
+2104,93, Old Hickory State #1503H                ,8076, t      ,5053310141, ATT
+1613,93, Ora HolzGraf B                          ,8927, t      ,5053893898, ATT
+2437,93, Ouray                                   ,9734, t      ,5054144670, ATT
+1301,93, Pegasus Central Office                  ,8914, t      ,5054527657, verizon
+1174,93, Pegasus Penn. Water Station             ,8924, t      ,5053186402, verizon
+1174,93, Pegasus Penn. Water Station             ,8915, t      ,5052219403, ATT
+2791,93, Pelican SWD                             ,9309, t      ,4325574275, ATT
+1389,93, PFU 2 14-27                             ,8752, t      ,5053628801, verizon
+1495,93, PFU 2 18-31                             ,8756, t      ,5052634827, ATT
+1496,93, PFU 2 18-34                             ,9738, t      ,5056971267, ATT
+2427,93, PFU 2 1921H                             ,6208, t      ,5052254132, ATT
+1465,93, PFU 2 23-28                             ,8764, t      ,5053286750, ATT
+2598,93, PFU 2 23-29H                            ,9165, t      ,5052066312, verizon
+1497,93, PFU 2 24-16                             ,9390, t      ,9152184103, ATT
+1451,93, PFU 2 907                               ,8773, t      ,5052082384, ATT
+1924,93, PFU 3-1080                              ,6724, t      ,5055066745, ATT
+1986,93, PFU 3 1323 Battery                      ,8923, t      ,5052526910, ATT
+2298,93, PFU 3-1729                              ,9085, t      ,5052219603, ATT
+1675,93, PFU 3-2009                              ,8914, t      ,5054527657, verizon
+2334,93, PFU 3 2913                              ,6912, t      ,5053310633, verizon
+2099,93, PFU 3 3911 H                            ,8474, t      ,5053821188, ATT
+1620,93, PFU 3 42-18 Battery                     ,8777, t      ,5055030849, ATT
+2069,93, PFU 3 4408 Battery                      ,8790, t      ,5053019543, ATT
+1548,93, PFU 3 7-12                              ,8931, t      ,5054013895, ATT
+2544,93, Poppy State                             ,6849, t      ,5055088310, ATT
+1808,93, Powell #19 Booster                      ,4143, t      ,5054148606, ATT
+1637,93, PPU 42-P Station                        ,8914, t      ,5054527657, verizon
+1636,93, PPU 5-P                                 ,8914, t      ,5054527657, verizon
+1659,93, PSARU Battery #1                        ,8821, t      ,5052061733, ATT
+1635,93, PSU 7-S Station                         ,8914, t      ,5054527657, verizon
+402,93, Rachel Battery                          ,9496, t      ,5053310048, ATT
+400,93, Rachel Satellite #1 Station             ,9352, t      ,5053624390, verizon
+391,93, Rachel Satellite #3 Station             ,8761, t      ,5053820368, ATT
+924,93, Railway Header                          ,8932, t      ,5054016143, ATT
+1429,93, Railway South 6 inch Tap                ,8817, t      ,5052060516, ATT
+1494,93, Rawhide State #4-3H                     ,9715, t      ,5052691382, ATT
+2078,93, Red Willow A 8705H                      ,5183, t      ,5052524432, verizon
+2094,93, Red Willow B 8501H                      ,7790, t      ,5054526435, ATT
+2442,93, Roasted Goat                            ,7934, t      ,5053791465, verizon
+2279,93, Rough Rider 4506-H                      ,5626, t      ,5056971323, verizon
+1388,93, Roy Parks 29                            ,8776, t      ,5052195283, ATT
+1387,93, Roy Parks 48                            ,9590, t      ,9153190874, ATT
+1643,93, Roy Parks B Injection Wells             ,7807, t      ,5055066550, verizon
+1390,93, Roy Parks C                             ,9754, t      ,5053628794, ATT
+825,93, Sallie 11                               ,8872, t      ,5053774572, ATT
+819,93, Sallie 13                               ,8880, t      ,5052743709, ATT
+818,93, Sallie 14                               ,8873, t      ,5052182865, ATT
+826,93, Sallie 2                                ,8742, t      ,5053734347, ATT
+815,93, Sallie 23                               ,8911, t      ,5052355044, ATT
+586,93, Sallie A 26                             ,8878, t      ,5053771666, ATT
+814,93, Sallie B 12                             ,8871, t      ,5054140224, ATT
+835,93, Sallie C                                ,8891, t      ,5052218316, verizon
+830,93, Sallie F                                ,8744, t      ,5053310012, verizon
+1372,93, Sarah Battery                           ,8905, t      ,5053628322, verizon
+2490,93, Severo                                  ,9638, t      ,5053771741, verizon
+1335,93, SJ Reed                                 ,8741, t      ,5053897185, verizon
+1612,93, State Glass 2-11                        ,8904, t      ,5052351068, ATT
+1505,93, T2 South Booster                        ,8824, t      ,5052209709, ATT
+2443,93, Trailblazer                             ,8392, t      ,5053820898, ATT
+1943,93, Tricky Dick #13 Battery                 ,6941, t      ,5052887424, ATT
+1729,93, Trust Buster 901H                       ,9190, t      ,5052801524, verizon
+1810,93, TXL #11 Flow Back Pit                   ,8820, t      ,5052254204, ATT
+2157,93, TXL #11 SWD                             ,5273, t      ,5052202892, ATT
+1692,93, TXL #15                                 ,5635, t      ,5055062610, ATT
+1691,93, TXL #17                                 ,5635, t      ,5055062610, ATT
+1689,93, TXL #21                                 ,5635, t      ,5055062610, ATT
+1700,93, TXL #23                                 ,5635, t      ,5055062610, ATT
+1699,93, TXL #31                                 ,9721, t      ,5052633927, ATT
+1702,93, TXL #33                                 ,6076, t      ,5052384571, ATT
+1696,93, TXL #35W                                ,9721, t      ,5052633927, ATT
+2312,93, TXL #39                                 ,7719, t      ,5053820495, ATT
+1695,93, TXL #41W                                ,9721, t      ,5052633927, ATT
+1701,93, TXL #45                                 ,8343, t      ,5056972670, verizon
+1690,93, TXL #9                                  ,5635, t      ,5055062610, ATT
+1619,93, TXL F Battery                           ,8820, t      ,5052254204, ATT
+1901,93, University 41 #2 SWD                    ,8408, t      ,5058037261, ATT
+2733,93, Veto Battery                            ,9580, t      ,4325571325, ATT
+2025,93, West Pearl 36 State #1 SWD              ,5011, t      ,5052748350, verizon
+2028,93, West Pearl 36 State #1 SWD HUB Diag.    ,5011, t      ,5052748350, verizon
+2029,93, West Pearl 36 State SWD #1 Transactions ,5011, t      ,5052748350, verizon
+1014,93, Windham SWD                             ,9037, t      ,5054144911, verizon
