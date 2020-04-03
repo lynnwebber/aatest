@@ -1,4 +1,4 @@
-#!/usr/bin/python
+#!/usr/bin/env python
 #
 
 import sys
@@ -17,7 +17,7 @@ def main():
         print("Root Name:", root.get_browse_name())
         #print("Children:", root.get_children())
 
-	tag1 = client.get_node("ns=2;s=StrongElectricDemo.SCADAPAC350.04")
+	tag1 = client.get_node("ns=2;s=1DenverLab_M7.M221.Pressure_1_Hi_SP")
 	print("tag1 is: {0} with value {1} ".format(tag1, tag1.get_value()))
 	t1val = tag1.get_value()
 	t1vtype = tag1.get_data_type_as_variant_type()
